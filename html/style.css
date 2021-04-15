@@ -1,0 +1,435 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Amatic SC',sans-serif;
+}
+
+/* buat header */
+.banner{
+    width: 100%;
+    height: 200vh;
+    background-image:url(sixbggede.jpg);
+    background-size: cover;
+    background-position:center ;
+}
+
+/*tulisan home awal*/
+.tulisanawal{
+  position: absolute;
+  margin-top: 40px;
+  left: 300px;
+}
+
+.tulisanawal p{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  width: 60%;
+}
+
+.tulisanawal2{
+  float: right;
+  position: absolute;
+  margin-top: 35%;
+  left: 50%;
+}
+
+.tulisanawal2 p{
+  text-align: center;
+  font-size: 30px;
+  color: #fff;
+  width: 90%;
+}
+
+.tulisanawal3{
+  float: right;
+  position: absolute;
+  margin-top: 60%;
+  left: 160px;
+}
+
+.tulisanawal3 p{
+  text-align: center;
+  font-size: 30px;
+  line-height: 38px;
+  color: #fff;
+  width: 38%;
+}
+
+
+.bannerdesk{
+  width: 100%;
+  height: 60vh;
+  background-image: url(deksripsibg.png);
+  background-size: cover;
+  background-position: bottom;
+}
+.bannerstory{
+  width: 100%;
+  height: 60vh;
+  background-image: url(story.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.bannerabout{
+  width: 100%;
+  height: 40vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+}
+
+.judulpage{
+  width: 100%;
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  text-align: center;
+  color: #fff;
+}
+
+.judulpage h1{
+  font-size: 50px;
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.headernav{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headernav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+
+.headernav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+
+}
+.dropbtn {
+    text-transform: uppercase;
+    color: #fff;
+    background: none;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+  }
+.dropbtn:hover{
+  border: none;
+}
+.dropbtn:active{
+  border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
+  }
+  
+  .dropdown-content a:hover {background: black ;}
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+.logo{
+    width: 100px;
+    cursor: pointer;
+}
+/* sampai sini header */
+
+/*ini buat footer*/
+.kotak{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: black;
+    padding: 40px 0;
+}
+.footer-col{
+   width: 19%;
+   padding: 0 30px;
+}
+.footer-col p{
+    color: #fff;
+    font-weight: 300px ;
+    text-transform:capitalize;
+    line-height: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+.footer-col h4{
+	font-size: 30px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+	font-size: 25px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 10px;
+}
+/* batesnya sampai ini */
+
+/* bagian deskripsi isi */
+.bagian{
+  background-color: #fff;
+  padding: 50px 0;
+  height: 60vh;
+  width: 100%;
+
+}
+.judultulisan{
+  position: absolute;
+  left: 100px;
+}
+.judultulisan h1{
+  line-height: 60px;
+  font-size: 60px;
+}
+.tulisan{
+  position: absolute;
+  margin-top: 150px;
+  left: 100px;
+}
+.tulisan p{
+
+  width: 50%;
+  text-align: justify;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: bold;
+}
+.gambar img{
+  float: right;
+  width: 400px;
+  height: 400px;
+  padding-right: 30px;
+  margin-right: 50px;
+}
+
+.bagian2{
+  background-color: rgb(49, 47, 47);
+  padding: 50px 0;
+  height: 60vh;
+  width: 100%;
+}
+.gambar2 img{
+  float: left;
+  width: 400px;
+  height: 400px;
+  margin-left: 30px;
+  padding-right: 100px;
+}
+
+.tulisan2{
+  margin-top: 20;
+  margin-bottom: 40;
+  padding: 10px;
+
+}
+
+.tulisan2 p{
+  color: #fff;
+  margin-top: 20px;
+  width: 1200px;
+  text-align: justify;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 300px;
+}
+/* bates deskripsi sampe sini */
+
+/* warna background dasar */
+.background{
+  height: 200vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+}
+.backgroundhome{
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+.backgroundhomelow{
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+.backgroundhomelowkanan{
+  width: 100%;
+  height: 400px;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+.backgroundabout{
+  height: 200vh;
+  background-color:  linear-gradient(to bottom, #050E1D, #050E1E);;
+}
+/* sampai sini */
+
+/* isi about */
+.backgroundabout .kotakabout{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.kotakgambar img{
+  width: 40%;
+}
+/*bates isi about*/
+
+/* isi home */
+.backgroundhome h1{
+  color: #fff;
+  padding: 60px 0;
+  font-size: 45px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.backgroundhomelow h2{
+  color: #fff;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.kotakgmbr img{
+  float: left;
+  width: 450px;
+  padding: 0 30px;
+  padding-right: 30px;
+  margin-right: 50px;
+}
+
+.kontenjudul{
+  margin-top: 20px;
+  position: absolute;
+  width: 30%;
+  left: 400px;
+}
+.kontenjudul h1{
+  text-align: center;
+  background-color: #fff;
+  font-size: 40px;
+ 
+}
+
+.kontenisi{
+  margin-top: 100px;
+}
+
+.kontenisi p{
+  color: #fff;
+  font-size: 30px;
+  line-height: 40px;
+  width: 80%;
+}
+
+.backgroundhomelowkanan h2{
+  content: "";
+  color: #fff;
+  padding: 20px 40px;
+  text-transform: uppercase;
+  font-size: 45px;
+}
+
+.kotakgmbrkanan img{
+  float: right;
+  width: 450px;
+  padding: 0 30px;
+  padding-right: 30px;
+  margin-right: 50px;
+}
+
+.kontenjudulkanan{
+  margin-top: 20px;
+  position: absolute;
+  width: 35%;
+  left: 400px;
+}
+.kontenjudulkanan h1{
+  text-align: center;
+  background-color: #fff;
+  font-size: 40px;
+}
+
+.kontenisikanan{
+  margin-top: 100px;
+  position: absolute;
+  left: 200px;
+}
+
+.kontenisikanan p{
+  color: #fff;
+  font-size: 35px;
+  line-height: 40px;
+  width: 60%;
+}
+
+.kontenjudulbeda{
+  margin-top: 20px;
+  position: absolute;
+  width: 35%;
+  left: 400px;
+}
+.kontenjudulbeda h1{
+  text-align: center;
+  background-color: #fff;
+  font-size: 40px;
+}
+
