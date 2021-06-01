@@ -3,13 +3,15 @@
 <title>Halaman Komentar</title>
 <body>
 	<h1><center>Komentar Anda </center> </h1>
-	<php?
+	<?php
 		$nama=$_GET['vnama'];
         $email=$_GET['vemail'];
         $komentar=$_GET['vkomen'];
 
 		echo $nama;
+		echo "<br><br>";
 		echo $email;
+		echo "<br><br>";
 		echo $komentar;
 		
 		//mysql_connect("localhost","root","");
