@@ -1,0 +1,5 @@
+- buat navigasinya bisa cek di file "KONTEN.txt" yaa, biar nanti tinggal sesuain
+- font navigasi agak gw kecilin jadi 36, trus font buat tulisan-tulisan artikel 40,
+  kalo tulisan buat title gitu 100, sisanya tinggal menyesuaikan
+
+- Dalang di balik pembunuhan Munir adalah Soehart............
