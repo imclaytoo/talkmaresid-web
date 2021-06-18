@@ -1,0 +1,19 @@
+Navigation:
+
+- Description 
+- Story Line 
+- Content
+	- Location v
+		- The Maw 
+
+	- Levels v
+		- The Prison 
+		- The Kitchen 
+		- The Guest Area 
+		- The Lady's Quarters 
+		- The Lair 
+	- Items v
+		- Porcelain Statue 
+		- Lantern and Candles 
+- About
+- Contact
