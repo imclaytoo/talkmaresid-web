@@ -72,13 +72,29 @@ background-size: cover;
 background-position: center;
 }
 
-.bannerlocationprison{
+.bannerlocationthemaw{
 width: 100%;
 height: 80vh;
-background-image: url(header.png);
+background-image: url(story.jpg);
 background-size: cover;
 background-position: center;
 }
+
+.bannerlocationthelair{
+  width: 100%;
+  height: 80vh;
+  background-image: url(thelairhead.jpg);
+  background-size: cover;
+  background-position: center;
+  }
+
+.bannerlocationprison{
+  width: 100%;
+  height: 80vh;
+  background-image: url(prison.png);
+  background-size: cover;
+  background-position: center;
+  }
 
 .bannerabout{
 width: 100%;
@@ -119,11 +135,17 @@ text-transform: uppercase;
 .headernav{
   width: 90%;
   margin: auto;
-  padding: 20px 0;
+  padding: 20px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
+.headernav ul ul{
+  display: none;
+  position: absolute;
+  top: 50px;
+  }
+
 
 .headernav ul li {
   list-style: none;
@@ -175,7 +197,8 @@ border: none;
   font-size: 20px;
 }
 
-.dropdown-content a:hover {background: black ;}
+.dropdown-content a:hover {
+  background: none ;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -246,73 +269,148 @@ padding-left: 10px;
 /* batesnya sampai ini */
 
 /* bagian deskripsi isi */
-.bagian{
-background-color: #fff;
-padding: 50px 0;
-height: 60vh;
-width: 100%;
+#bgdesk{
+  height: 120vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+  }
 
+#tulkir h1{
+  color: #fff;
+  font-size: 70px;
+  padding-top: 150px;
+  margin-bottom: 10px;
+  margin-left: 100px;
 }
-.judultulisan{
-position: absolute;
-left: 100px;
+#tulkir p{
+  color: #fff;
+  font-size: 40px;
+  margin-top: 100px;
+  width: 40%;
+  margin-left: 100px;
+  position: absolute;
 }
-.judultulisan h1{
-line-height: 60px;
-font-size: 60px;
-}
-.tulisan{
-position: absolute;
-margin-top: 150px;
-left: 100px;
-}
-.tulisan p{
 
-width: 50%;
-text-align: justify;
-line-height: 40px;
-font-size: 30px;
-font-weight: bold;
+#tulkirwr{
+  width: 15%;
+  }
+
+#tulkirwr h1{
+  color: black;
+  background-color: #fff;
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-left: 50px;
 }
+
+#tulkirwrbd{
+  width: 40%;
+  }
+
+#tulkirwrbd h1{
+  color: black;
+  background-color: #fff;
+  font-size: 60px;
+  padding: 15px;
+  text-align: center;
+  margin-left: 60px;
+  position: absolute;
+}
+
+
+#bgdesklow{
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+#bgdesklowsix{
+  width: 100%;
+  height: 120vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
 .gambar img{
 float: right;
-width: 400px;
-height: 400px;
+width: 250px;
+height: 200px;
+padding-top: 30px;
 padding-right: 30px;
-margin-right: 50px;
+margin-right: 100px;
 }
 
-.bagian2{
-background-color: rgb(49, 47, 47);
-padding: 50px 0;
-height: 60vh;
-width: 100%;
+.gambarbawah img{
+  position: relative;
+  float: right;
+  width: 250px;
+  height: 200px;
+  padding-right: 30px;
+  top: 250px;
+  margin-right: -260px;
+  }
+
+.gmbrknn img{
+  float: right;
+  width: 450px;
+  height: 300px;
+  padding-top: 100px;
+  padding-right: 30px;
+  margin-right: 120px;
 }
-.gambar2 img{
+#gmbrknnhaya img{
+  float: right;
+  width: 400px;
+  height: 450px;
+  padding-top: 30px;
+  padding-right: 30px;
+  margin-right: 120px;
+}
+
+.gmbrleft img{
 float: left;
-width: 400px;
-height: 400px;
-margin-left: 30px;
-padding-right: 100px;
+width: 450px;
+height: 300px;
+padding-top: 100px;
+margin-left: 150px;
+padding-right: 150px;
 }
 
-.tulisan2{
-margin-top: 20;
-margin-bottom: 40;
-padding: 10px;
+#gmbrsix img{
+  float: left;
+  width: 200px;
+  height: 600px;
+  padding-top: 100px;
+  padding-left: 200px;
+  margin-left: 60px;
+  padding-right: 250px;
+  }
 
+#tulkirrtknn p{
+  color: #fff;
+  font-size: 35px;
+  text-align: right;
+  margin-top: 100px;
+  width: 40%;
+  margin-left: 40px;
+  position: absolute;
 }
 
-.tulisan2 p{
+.tulknn{
+padding-top: 120px;
+}
+
+.tulknn p{
 color: #fff;
-margin-top: 20px;
-width: 1200px;
-text-align: justify;
+width: 90%;
 line-height: 40px;
-font-size: 30px;
+font-size: 35px;
 font-weight: 300px;
 }
 /* bates deskripsi sampe sini */
+
 
 /* warna background dasar */
 .background{
@@ -338,17 +436,6 @@ background-color: #fff;
 background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
-.backgroundbawahlocation{
-height: 150vh;
-background-color: #fff;
-background-image: linear-gradient(to bottom, #050E1D, #050E1E);
-}
-
-.backgroundbawahlocationbeda{
-height: 100vh;
-background-color: #fff;
-background-image: linear-gradient(to bottom, #050E1D, #050E1E);
-}
 .backgroundhomelowkanan{
 width: 100%;
 height: 400px;
@@ -402,6 +489,7 @@ position: absolute;
 width: 30%;
 left: 400px;
 }
+
 .kontenjudul h1{
 text-align: center;
 background-color: #fff;
@@ -474,94 +562,283 @@ font-size: 40px;
 }
 
 
-/* untuk form bagian location*/
+/* untuk bagian themaw*/
+#bgloclow{
+  width: 100%;
+  height: 110vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+#bgloclowjudul{
+  width: 100%;
+  height: 550px;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+.tulknnloc{
+  padding-top: 100px;
+}
+  
+.tulknnloc p{
+  color: #fff;
+  width: 85%;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 300px;
+}
+
+#tulkirwrbdloc{
+  width: 50%;
+  padding-top: 100px;
+}
+
+#tulkirwrbdloc h1{
+  color: black;
+  background-color: #fff;
+  font-size: 60px;
+  padding: 15px;
+  text-align: center;
+  margin-left: 80px;
+  position: absolute;
+}
+
+#kirlocjudul{
+  width: 30%;
+  position: relative;
+  top: 150px;
+}
+
+#kirlocjudul h1{
+  color: black;
+  background-color: #fff;
+  font-size: 60px;
+  width: 60%;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 80px;
+  
+}
+
+#kirlocjudulldy{
+  width: 40%;
+  position: relative;
+  top: 150px;
+}
+#kirlocjudulldy h1{
+  color: black;
+  background-color: #fff;
+  font-size: 60px;
+  width: 65%;
+  text-align: center;
+  font-weight: 500;
+  margin-left: 80px;
+  
+}
+
+#knnlocjudul{
+  width: 30%;
+  position: relative;
+  top: 80px;
+  left: 900px;
+}
+
+#knnlocjudul h1{
+  color: black;
+  background-color: #fff;
+  font-size: 60px;
+  width: 60%;
+  text-align: center;
+  font-weight: 500;
+  
+}
+
+.gmbrleftloc img{
+  float: left;
+  width: 500px;
+  height: 300px;
+  padding-top: 100px;
+  margin-left: 100px;
+  padding-right: 150px;
+}
+.gleftlocbig img{
+  float: left;
+  width: 800px;
+  height: 450px;
+  padding-top: 100px;
+  margin-left: 100px;
+}
+.gknnlocbig img{
+  float: right;
+  width: 800px;
+  height: 450px;
+  padding-top: 100px;
+  margin-right: 220px;
+}
+
+#tulkirloc h1{
+  color: #fff;
+  font-size: 70px;
+  padding-top: 150px;
+  margin-bottom: 10px;
+  margin-left: 100px;
+}
+
+#tulkirloc p{
+  color: #fff;
+  font-size: 40px;
+  margin-top: 100px;
+  width: 40%;
+  margin-left: 100px;
+  position: absolute;
+}
+/*sampe sini themaw*/
+
+/* bagian the prison*/
+.backgroundbawahprison{
+  height: 150vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+  
+  .backgroundbawahprisonbeda{
+  height: 100vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
 .background h1{
-color: #fff;
-font-size: 70px;
-padding: 30px;
-margin-bottom: 10px;
-margin-left: 15px;
+  color: #fff;
+  font-size: 70px;
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 15px;
 }
 
 .background p{
-color: #fff;
-font-size: 40px;
-padding: 30px;
-width: 40%;
-margin-left: 20px;
-position: absolute;
+  color: #fff;
+  font-size: 30px;
+  padding: 30px;
+  width: 40%;
+  margin-left: 20px;
+  position: absolute;
 }
 
-#gambarlocationkanan img{
-float: right;
-top: 10px;
-margin-right: 40px;
-margin-top: 60px;
-padding: 60px;
-width: 40%;
+#gambartheprisonkanan img{
+  float: right;
+  top: 10px;
+  margin-right: 130px;
+  padding-top: 30px;
+  width: 40%;
 }
 
-.backgroundbawahlocation h1{
-color: #fff;
-font-size: 70px;
-padding: 30px;
-margin-bottom: 10px;
-margin-left: 15px;
+.backgroundbawahprison h1{
+  color: #fff;
+  font-size: 70px;
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 15px;
 }
 
-.backgroundbawahlocation p{
-color: #fff;
-font-size: 40px;
-padding: 30px;
-width: 40%;
-margin-left: 20px;
+.backgroundbawahprison p{
+  color: #fff;
+  font-size: 30px;
+  padding: 30px;
+  width: 40%;
+  margin-left: 20px;
 }
 
-.backgroundbawahlocationbeda h1{
-color: #fff;
-font-size: 70px;
-padding: 30px;
-margin-bottom: 10px;
-margin-left: 15px;
+.backgroundbawahprisonbeda h1{
+  color: #fff;
+  font-size: 70px;
+  padding: 30px;
+  margin-bottom: 10px;
+  margin-left: 15px;
 }
 
-.backgroundbawahlocationbeda p{
-color: #fff;
-font-size: 40px;
-padding: 30px;
-width: 40%;
-margin-left: 20px;
+.backgroundbawahprisonbeda p{
+  color: #fff;
+  font-size: 30px;
+  padding: 30px;
+  width: 40%;
+  margin-left: 20px;
 }
-#deskripsikanan {
-margin-top: 460px;
-position: absolute;
-text-align: right;
-right: 100px;
+#deskpriskanan {
+  margin-top: 460px;
+  position: absolute;
+  text-align: right;
+  right: 100px;
 }
 
 #gambarkiri img{
-float: left;
-width: 40%;
-padding: 30px;
-margin-top: 150px;
+  float: left;
+  width: 40%;
+  padding-top: 50px;
+  margin-left: 50px;
 }
 
 #solutionkanan{
-position: absolute;
-text-align: right;
-right: 80px;
+  position: absolute;
+  text-align: right;
+  right: 80px;
 }
 
-#palingbawahloc{
+#palingbawahprison{
+  color: #fff;
+  font-size: 30px;
+  padding: 30px;
+  width: 40%;
+  margin-left: 20px;
+  position: absolute;
+}
+
+.backgroundbawahprisonbeda textarea {
+  width: 60%;
+  height: 40%;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: calibri;
+}
+
+.button{
+  text-decoration: none;
+  margin-left: 40px;
+  padding: 15px 32px;
+  cursor: pointer;
+  background-color: #91672c;
+  border: none;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: calibri ;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* akhir bagian the prison*/
+
+/*bagian komentar*/
+.backgroundkomentar{
+  height: 100vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+.backgroundkomentar h1{
+color: #fff;
+font-size: 70px;
+padding: 30px;
+margin-bottom: 10px;
+margin-left: 15px;
+}
+
+.backgroundkomentar p{
 color: #fff;
 font-size: 40px;
 padding: 30px;
 width: 40%;
 margin-left: 20px;
-position: absolute;
 }
 
-.backgroundbawahlocationbeda textarea {
+.backgroundkomentar textarea {
 width: 60%;
 height: 40%;
 margin-left: 40px;
@@ -582,16 +859,247 @@ font-family: calibri ;
 color: white;
 text-transform: uppercase;
 }
+
 #inputnama{
-width: 30%;
-height: 50px;
-margin-left: 40px;
-font-size: 20px;
-font-family: calibri;
+  width: 30%;
+  height: 50px;
+  margin-left: 40px;
+  font-size: 20px;
+  font-family: calibri;
 }
 
 #komentar{
-color: white;
-font-size: 40px;
-margin-left: 40px;
+  color: white;
+  font-size: 40px;
+  margin-left: 40px;
 }
+/*akhir bagian komentar*/
+
+/* bagian story*/
+#bgstory{
+  height: 90vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+  }
+
+#tulkirwrbdst{
+    width: 40%;
+    padding-top: 100px;
+}
+  
+#tulkirwrbdst h1{
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.tulknnst{
+    padding-top: 100px;
+}
+    
+.tulknnst p{
+    color: #fff;
+    width: 90%;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+.gmbrleftst img{
+      float: left;
+      width: 500px;
+      height: 300px;
+      padding-top: 100px;
+      margin-left: 100px;
+      padding-right: 150px;
+}
+
+.gmbrleftstjt img{
+        float: left;
+        width: 450px;
+        height: 400px;
+        padding-top: 100px;
+        margin-left: 150px;
+        padding-right: 120px;
+}
+
+#bgdesklowmj{
+  width: 100%;
+  height: 120vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+#gambarst img{
+  float: left;
+  width: 400px;
+  height: 300px;
+  padding-top: 100px;
+  margin-left: 60px;
+}
+        
+#gambarbwhst img{
+  position: relative;
+ float: left;
+ width: 400px;
+ height: 300px;
+ padding-top: 100px;
+ padding-right: 170px;
+ top: 350px;
+ margin-left: -400px;
+}
+
+.tulknnstldy{
+  padding-top: 100px;
+}
+  
+.tulknnstldy p{
+  color: #fff;
+  width: 100%;
+  line-height: 40px;
+  font-size: 30px;
+  font-weight: 300px;
+}
+
+#tulkirrtknnst p{
+  color: #fff;
+  font-size: 35px;
+  text-align: right;
+  margin-top: 100px;
+  width: 40%;
+  margin-left: 60px;
+  position: absolute;
+}
+
+.gmbrknnst img{
+  float: right;
+  width: 500px;
+  height: 300px;
+  padding-top: 100px;
+  padding-right: 30px;
+  margin-right: 100px;
+}
+/*story sampe sini*/
+
+
+/*bagian the lair*/
+#bglair{
+  height: 90vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+  }
+  
+#bglairlow{
+    width: 100%;
+    height: 70vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+#bglairlowjr{
+  width: 100%;
+  height: 110vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+#bglairlowpanjang{
+  width: 100%;
+  height: 180vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+#tulkirwrbdlr{
+    width: 40%;
+    padding-top: 100px;
+}
+  
+#tulkirwrbdlr h1{
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 150px;
+    position: absolute;
+}
+
+.tulknnlr{
+    padding-top: 100px;
+}
+    
+.tulknnlr p{
+    color: #fff;
+    width: 100%;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 300px;
+}
+
+#tulkirlr p{
+  color: #fff;
+  font-size: 35px;
+  text-align: right;
+  margin-top: 100px;
+  width: 40%;
+  margin-left: 60px;
+  position: absolute;
+}
+
+.gmbrleftlr img{
+      float: left;
+      width: 500px;
+      height: 300px;
+      padding-top: 100px;
+      margin-left: 100px;
+      padding-right: 150px;
+}
+
+.gmbrleftlrswing img{
+  float: left;
+  width: 500px;
+  height: 300px;
+  padding-top: 100px;
+  margin-left: 30px;
+  padding-right: 50px;
+}
+
+.gmbrknnlr img{
+  float: right;
+  width: 500px;
+  height: 300px;
+  padding-top: 100px;
+  padding-right: 30px;
+  margin-right: 100px;
+}
+
+.gmbrknnlrdesk img{
+  float: right;
+  width: 500px;
+  height: 300px;
+  padding-top: 300px;
+  padding-right: 30px;
+  margin-right: 100px;
+}
+
+.gmbrknnlrjr img{
+  float: right;
+  width: 500px;
+  height: 300px;
+  padding-top: 220px;
+  padding-right: 30px;
+  margin-right: 100px;
+}
+
+.gmbrleftlrjr img{
+  float: left;
+  width: 500px;
+  height: 300px;
+  padding-top: 100px;
+  margin-left: 50px;
+  padding-right: 60px;
+}
+/*akhir bagian the lair*/
