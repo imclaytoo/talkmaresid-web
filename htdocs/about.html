@@ -1,123 +1,136 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>
-            Little Nightmare
-        </title>
-        <link rel="stylesheet" type="text/css" href="style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-        <script>
-          var slideIndex = 1;
-          showSlides(slideIndex);
+<head>
+    <title>Little Nightmare</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
           
-          function plusSlides(n) {
+        function plusSlides(n) {
             showSlides(slideIndex += n);
-          }
+        }
           
-          function currentSlide(n) {
+        function currentSlide(n) {
             showSlides(slideIndex = n);
-          }
+        }
           
-          function showSlides(n) {
+        function showSlides(n) {
             var i;
             var slides = document.getElementsByClassName("mySlides");
             var dots = document.getElementsByClassName("dot");
+
             if (n > slides.length) {slideIndex = 1}    
             if (n < 1) {slideIndex = slides.length}
+
             for (i = 0; i < slides.length; i++) {
                 slides[i].style.display = "none";  
             }
+
             for (i = 0; i < dots.length; i++) {
                 dots[i].className = dots[i].className.replace(" active", "");
             }
+            
             slides[slideIndex-1].style.display = "block";  
             dots[slideIndex-1].className += " active";
-          }
-          </script>
+        }
+    </script>
+</head>
 
-    </head>
-    <body>
-        <nav>
-            <div class="bannerabout">
-                  <div class="headernav">
-                      <img src="logo-white.png" class="logo">
-                      <ul>
-                          <li><a href="home.html">Home</a></li>
-                          <li><a href="deskripsi.html">Description</a></li>
-                          <li><a href="story.html">Story</a></li>
-                          <div class="dropdown">
-                            <button class="dropbtn">Content</button>
-                            <div class="dropdown-content">
-                            <a href="#">Character</a>
-                            <a href="location.html">Location</a>
-                            <a href="#">Levels</a>
-                            <a href="#">Items</a>
+<body>
+    <nav>
+        <div class="bannerabout">
+            <div class="headernav">
+                <img src="gambar/logo-white.png" class="logo">
+                <ul>
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="deskripsi.html">Description</a></li>
+                    <li><a href="story.html">Story</a></li>
+
+                    <div class="dropdown">
+                        <button class="dropbtn">Content</button>
+	                    <div class="dropdown-content">
+        	                <a href="location.html">Location</a>
+                            <div class="dropdown">
+                	            <a href="themaw.html"> -> The Maw</a>
+                                <a href="prison.html"> -> Prison</a>
+                                <a href="thelair.html"> -> The Lair</a>
+                                <a href="kitchen.html"> -> Kitchen</a>
+                	            <a href="guestarea.html"> -> Guest Area</a>
+                                <a href="#"> -> The Lady's Quarter</a>
                             </div>
-                          </div>
-                        
-                        </li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                      </ul>
+                            <a href="#">Levels</a>
+               	            <a href="#">Items</a>
+                        </div>
+                    </div>
+
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
             </div>
-          </nav> 
-          <section>
-            <div class="slideshow-container">
-              <div class="mySlides fade">
+        </div>
+    </nav>
+
+    <section>
+        <div class="slideshow-container">
+            <div class="mySlides fade">
                 <img src="../gambar/erlang.jpg">
                 <div class="text">Caption Text</div>
-              </div>
+            </div>
               
-              <div class="mySlides fade">
+            <div class="mySlides fade">
                 <img src="../gambar/naufal.JPG" style="width:100%">
                 <div class="text">Caption Two</div>
-              </div>
+            </div>
               
-              <div class="mySlides fade">
+            <div class="mySlides fade">
                 <img src="../gambar/prison1.png" style="width:100%">
                 <div class="text">Caption Three</div>
-              </div>
+            </div>
               
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
               
-              </div>
-              <br>
-          </section>
+        </div>
+        <br>
+    </section>
 
 
-      <footer class="footer">
-          <div class="kotak">
+    <footer class="footer">
+        <div class="kotak">
             <div class="row">
-              <div class="footer-col">
-                <h4>About us</h4>
-                <p>Our team was founded to create a friendly
-                  knowledge and sharing about HORROR GAME
-                  CALLED "LITTLE NIGHTMARE". Our team, strives 
-                  to provide a review of various aspects as well 
-                  as general introductions about this game &
-                  will explore everything to increase insight. 
-                  </p>
-              </div>
-              <div class="footer-col">
+                <div class="footer-col">
+                    <h4>About us</h4>
+                    <p>Our team was founded to create a friendly
+                    knowledge and sharing about HORROR GAME
+                    CALLED "LITTLE NIGHTMARE". Our team, strives 
+                    to provide a review of various aspects as well 
+                    as general introductions about this game &
+                    will explore everything to increase insight. 
+                    </p>
+                </div>
+            <div class="footer-col">
                 <h4>Content</h4>
                 <ul>
-                  <li><a href="#">Location</a></li>
-                  <li><a href="#">Levels</a></li>
-                  <li><a href="#">Items</a></li>
+                    <li><a href="#">Location</a></li>
+                    <li><a href="#">Levels</a></li>
+                    <li><a href="#">Items</a></li>
                 </ul>
-              </div>
-              <div class="footer-col">
-                  
-              </div>
-              <div class="footer-col">
+            </div>
+
+            <div class="footer-col">
+            </div>
+
+            <div class="footer-col">
                 <h4>Contact</h4>
                 <ul>
-                  <li><p>0851-5545-8847</p></li>
-                  <li><p>0851-5545-8847</p></li>
-                  <li><p>erlanggasetiawan231@gmail.com</p></li>
+                    <li><p>0851-5545-8847</p></li>
+                    <li><p>0851-5545-8847</p></li>
+                    <li><p>erlanggasetiawan231@gmail.com</p></li>
                 </ul>
-          </div>
-      </footer>
-    </body>
+            </div>
+    </footer>
+</body>
 </html>

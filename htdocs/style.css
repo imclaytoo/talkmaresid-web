@@ -1,932 +1,957 @@
 *{
   padding: 0;
   margin: 0;
-  font-family: 'Amatic SC',sans-serif;
+  font-family: 'Amatic SC', sans-serif;
 }
+
 
 /* buat header */
-.banner{
-  width: 100%;
-  height: 200vh;
-  background-image:url(sixbggede.jpg);
-  background-size: cover;
-  background-position:center ;
+.banner {
+    width: 100%;
+    height: 200vh;
+    background-image: url(gambar/sixbggede.jpg);
+    background-size: cover;
+    background-position: center;
 }
+
 
 /*tulisan home awal*/
-.tulisanawal{
-position: absolute;
-margin-top: 40px;
-left: 300px;
+.tulisanawal {
+    position: absolute;
+    margin-top: 40px;
+    left: 300px;
 }
 
-.tulisanawal p{
-text-align: center;
-font-size: 30px;
-color: #fff;
-width: 60%;
+.tulisanawal p {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    width: 60%;
 }
 
-.tulisanawal2{
-float: right;
-position: absolute;
-margin-top: 35%;
-left: 50%;
+.tulisanawal2 {
+    float: right;
+    position: absolute;
+    margin-top: 35%;
+    left: 50%;
 }
 
-.tulisanawal2 p{
-text-align: center;
-font-size: 30px;
-color: #fff;
-width: 90%;
+.tulisanawal2 p {
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
+    width: 90%;
 }
 
-.tulisanawal3{
-float: right;
-position: absolute;
-margin-top: 60%;
-left: 160px;
+.tulisanawal3 {
+    float: right;
+    position: absolute;
+    margin-top: 60%;
+    left: 160px;
 }
 
-.tulisanawal3 p{
-text-align: center;
-font-size: 30px;
-line-height: 38px;
-color: #fff;
-width: 38%;
+.tulisanawal3 p {
+    text-align: center;
+    font-size: 30px;
+    line-height: 38px;
+    color: #fff;
+    width: 38%;
 }
+
 
 /* header*/
-.bannerdesk{
-width: 100%;
-height: 60vh;
-background-image: url(deksripsibg.png);
-background-size: cover;
-background-position: bottom;
-}
-.bannerstory{
-width: 100%;
-height: 60vh;
-background-image: url(story.jpg);
-background-size: cover;
-background-position: center;
-}
-
-.bannerlocationthemaw{
-width: 100%;
-height: 80vh;
-background-image: url(story.jpg);
-background-size: cover;
-background-position: center;
-}
-
-.bannerlocationthelair{
-  width: 100%;
-  height: 80vh;
-  background-image: url(thelairhead.jpg);
-  background-size: cover;
-  background-position: center;
-  }
-
-  .bannerlocationtheguest{
+.bannerdesk {
     width: 100%;
-    height: 80vh;
-    background-image: url(guestarea.png);
+    height: 60vh;
+    background-image: url(gambar/deksripsibg.png);
+    background-size: cover;
+    background-position: bottom;
+}
+
+.bannerstory {
+    width: 100%;
+    height: 60vh;
+    background-image: url(gambar/story.jpg);
     background-size: cover;
     background-position: center;
-    }
+}
 
-  .bannerlocationthekitchen{
+.bannerlocationthemaw {
     width: 100%;
     height: 80vh;
-    background-image: url(thekitchen.jpg);
+    background-image: url(gambar/story.jpg);
     background-size: cover;
     background-position: center;
-    }
-
-.bannerlocationprison{
-  width: 100%;
-  height: 80vh;
-  background-image: url(prison.png);
-  background-size: cover;
-  background-position: center;
-  }
-
-.bannerabout{
-width: 100%;
-height: 40vh;
-background-color: #fff;
-background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
 }
 
-.judulpage{
-width: 100%;
-position: absolute;
-top: 30%;
-transform: translateY(-50%);
-text-align: center;
-color: #fff;
-}
-.judulpagelocation{
-width: 100%;
-position: absolute;
-top: 40%;
-transform: translateY(-50%);
-text-align: center;
-color: #fff;
+.bannerlocationthelair {
+    width: 100%;
+    height: 80vh;
+    background-image: url(gambar/thelairhead.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.judulpage h1{
-font-size: 50px;
-margin-top: 80px;
-text-transform: uppercase;
+.bannerlocationtheguest {
+    width: 100%;
+    height: 80vh;
+    background-image: url(gambar/guestarea.png);
+    background-size: cover;
+    background-position: center;
 }
 
-.judulpagelocation h1{
-font-size: 85px;
-margin-top: 80px;
-text-transform: uppercase;
+.bannerlocationthekitchen {
+    width: 100%;
+    height: 80vh;
+    background-image: url(gambar/thekitchen.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-.headernav{
-  width: 90%;
-  margin: auto;
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.bannerlocationprison {
+    width: 100%;
+    height: 80vh;
+    background-image: url(gambar/prison.png);
+    background-size: cover;
+    background-position: center;
 }
-.headernav ul ul{
-  display: none;
-  position: absolute;
-  top: 50px;
-  }
 
+.bannerabout {
+    width:100%;
+    height:40vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+}
+
+.judulpage {
+    width:100%;
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.judulpagelocation {
+    width: 100%;
+    position: absolute;
+    top: 40%;
+    transform: translateY(-50%);
+    text-align: center;
+    color: #fff;
+}
+
+.judulpage h1 {
+    font-size: 50px;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.judulpagelocation h1 {
+    font-size: 85px;
+    margin-top: 80px;
+    text-transform: uppercase;
+}
+
+.headernav {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headernav ul ul {
+    display: none;
+    position: absolute;
+    top: 50px;
+}
 
 .headernav ul li {
-  list-style: none;
-  display: inline-block;
-  margin: 0 10px;
-  position: relative;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
 }
 
 .headernav ul li a {
-  text-decoration: none;
-  color: #fff;
-  text-transform: uppercase;
-  font-size: 30px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 30px;
+}
 
-}
 .dropbtn {
-  text-transform: uppercase;
-  color: #fff;
-  background: none;
-  padding: 16px;
-  font-size: 30px;
-  border: none;
-  cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+    background: none;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
 }
-.dropbtn:hover{
-border: none;
+
+.dropbtn:hover {
+    border: none;
 }
-.dropbtn:active{
-border: none;
+
+.dropbtn:active {
+    border: none;
 }
 
 .dropdown {
-  position: relative;
-  display: inline-block;
+    position: relative;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  min-width: 160px;
-  z-index: 1;
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
 }
 
 .dropdown-content a {
-  color: #fff;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  font-size: 20px;
+    color: #fff;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 20px;
 }
 
 .dropdown-content a:hover {
-  background: none ;}
+    background: none;
+ }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
-.logo{
-  width: 100px;
-  cursor: pointer;
+.logo {
+    width: 100px;
+    cursor: pointer;
 }
 /* sampai sini header */
 
+
 /*ini buat footer*/
-.kotak{
-max-width: 1170px;
-margin:auto;
+.kotak {
+    max-width: 1170px;
+    margin: auto;
 }
-.row{
-display: flex;
-flex-wrap: wrap;
-}
-
-ul{
-list-style: none;
-}
-.footer{
-background-color: black;
-  padding: 40px 0;
-}
-.footer-col{
- width: 19%;
- padding: 0 30px;
-}
-.footer-col p{
-  color: #fff;
-  font-weight: 300px ;
-  text-transform:capitalize;
-  line-height: 20px;
-  font-size: 20px;
-  width: 100%;
-}
-.footer-col h4{
-font-size: 30px;
-color: #ffffff;
-text-transform: capitalize;
-margin-bottom: 35px;
-font-weight: 500;
-position: relative;
+.row {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.footer-col ul li:not(:last-child){
-margin-bottom: 10px;
+ul {
+    list-style: none;
 }
 
-.footer-col ul li a{
-font-size: 25px;
-text-transform: capitalize;
-color: #ffffff;
-text-decoration: none;
-font-weight: 300;
-color: #bbbbbb;
-display: block;
-transition: all 0.3s ease;
+.footer {
+    background-color: black;
+    padding: 40px 0;
 }
-.footer-col ul li a:hover{
-color: #ffffff;
-padding-left: 10px;
+
+.footer-col {
+    width: 19%;
+    padding: 0 30px;
+}
+
+.footer-col p {
+    color: #fff;
+    font-weight: 300px;
+    text-transform: capitalize;
+    line-height: 20px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.footer-col h4 {
+    font-size: 30px;
+    color: #ffffff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a {
+    font-size: 25px;
+    text-transform: capitalize;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbbbbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+    color: #ffffff;
+    padding-left: 10px;
 }
 /* batesnya sampai ini */
 
+
 /* bagian deskripsi isi */
-#bgdesk{
-  height: 120vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
-  }
-
-#tulkir h1{
-  color: #fff;
-  font-size: 70px;
-  padding-top: 150px;
-  margin-bottom: 10px;
-  margin-left: 100px;
-}
-#tulkir p{
-  color: #fff;
-  font-size: 40px;
-  margin-top: 100px;
-  width: 40%;
-  margin-left: 100px;
-  position: absolute;
+#bgdesk {
+    height: 120vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
 }
 
-#tulkirwr{
-  width: 15%;
-  }
-
-#tulkirwr h1{
-  color: black;
-  background-color: #fff;
-  font-size: 60px;
-  text-align: center;
-  margin-bottom: 10px;
-  margin-left: 50px;
+#tulkir h1 {
+    color: #fff;
+    font-size: 70px;
+    padding-top: 150px;
+    margin-bottom: 10px;
+    margin-left: 100px;
 }
 
-#tulkirwrbd{
-  width: 40%;
-  }
-
-#tulkirwrbd h1{
-  color: black;
-  background-color: #fff;
-  font-size: 60px;
-  padding: 15px;
-  text-align: center;
-  margin-left: 60px;
-  position: absolute;
+#tulkir p {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 100px;
+    position: absolute;
 }
 
+#tulkirwr {
+    width: 15%;
+}
 
-#bgdesklow{
+#tulkirwr h1 {
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+#tulkirwrbd {
+    width: 40%;
+}
+
+#tulkirwrbd h1 {
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 60px;
+    position: absolute;
+}
+
+#bgdesklow {
     width: 100%;
     height: 500px;
     background-color: #fff;
     background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
-#bgdesklowsix{
-  width: 100%;
-  height: 120vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+#bgdesklowsix {
+    width: 100%;
+    height: 120vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
-.gambar img{
-float: right;
-width: 250px;
-height: 200px;
-padding-top: 30px;
-padding-right: 30px;
-margin-right: 100px;
+.gambar img {
+    float: right;
+    width: 250px;
+    height: 200px;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-right: 100px;
 }
 
-.gambarbawah img{
-  position: relative;
-  float: right;
-  width: 250px;
-  height: 200px;
-  padding-right: 30px;
-  top: 250px;
-  margin-right: -260px;
-  }
-
-.gmbrknn img{
-  float: right;
-  width: 450px;
-  height: 300px;
-  padding-top: 100px;
-  padding-right: 30px;
-  margin-right: 120px;
-}
-#gmbrknnhaya img{
-  float: right;
-  width: 400px;
-  height: 450px;
-  padding-top: 30px;
-  padding-right: 30px;
-  margin-right: 120px;
+.gambarbawah img {
+    position: relative;
+    float: right;
+    width: 250px;
+    height: 200px;
+    padding-right: 30px;
+    top: 250px;
+    margin-right: -260px;
 }
 
-.gmbrleft img{
-float: left;
-width: 450px;
-height: 300px;
-padding-top: 100px;
-margin-left: 150px;
-padding-right: 150px;
+.gmbrknn img {
+    float: right;
+    width: 450px;
+    height: 300px;
+    padding-top: 100px;
+    padding-right: 30px;
+    margin-right: 120px;
 }
 
-#gmbrsix img{
-  float: left;
-  width: 200px;
-  height: 600px;
-  padding-top: 100px;
-  padding-left: 200px;
-  margin-left: 60px;
-  padding-right: 250px;
-  }
-
-#tulkirrtknn p{
-  color: #fff;
-  font-size: 35px;
-  text-align: right;
-  margin-top: 100px;
-  width: 40%;
-  margin-left: 40px;
-  position: absolute;
+#gmbrknnhaya img {
+    float: right;
+    width: 400px;
+    height: 450px;
+    padding-top: 30px;
+    padding-right: 30px;
+    margin-right: 120px;
 }
 
-.tulknn{
-padding-top: 120px;
+.gmbrleft img {
+    float: left;
+    width: 450px;
+    height: 300px;
+    padding-top: 100px;
+    margin-left: 150px;
+    padding-right: 150px;
 }
 
-.tulknn p{
-color: #fff;
-width: 90%;
-line-height: 40px;
-font-size: 35px;
-font-weight: 300px;
+#gmbrsix img {
+    float: left;
+    width: 200px;
+    height: 600px;
+    padding-top: 100px;
+    padding-left: 200px;
+    margin-left: 60px;
+    padding-right: 250px;
+}
+
+#tulkirrtknn p {
+    color: #fff;
+    font-size: 35px;
+    text-align: right;
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.tulknn {
+    padding-top: 120px;
+}
+
+.tulknn p {
+    color: #fff;
+    width: 90%;
+    line-height: 40px;
+    font-size: 35px;
+    font-weight: 300px;
 }
 /* bates deskripsi sampe sini */
 
 
 /* warna background dasar */
-.background{
-height: 200vh;
-background-color: #fff;
-background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
-}
-.backgroundcontact{
-height: 100vh;
-background-color: #fff;
-background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
-}
-.backgroundhome{
-width: 100%;
-height: 500px;
-background-color: #fff;
-background-image: linear-gradient(to bottom, #050E1D, #050E1E);
-}
-.backgroundhomelow{
-width: 100%;
-height: 400px;
-background-color: #fff;
-background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+.background {
+    height: 200vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
 }
 
-.backgroundhomelowkanan{
-width: 100%;
-height: 400px;
-background-color: #fff;
-background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+.backgroundcontact {
+    height: 100vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
 }
-.backgroundabout{
-height: 200vh;
-background-color:  linear-gradient(to bottom, #050E1D, #050E1E);;
+
+.backgroundhome {
+    width: 100%;
+    height: 500px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+.backgroundhomelow {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+.backgroundhomelowkanan {
+    width: 100%;
+    height: 400px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+.backgroundabout {
+    height: 200vh;
+    background-color:  linear-gradient(to bottom, #050E1D, #050E1E);;
 }
 /* sampai sini */
 
+
 /* isi about */
 .text {
-  color: black;
-  font-size: 15px;
-  position: absolute;
-  bottom: 8px;
-
-  text-align: center;
+    color: black;
+    font-size: 15px;
+    position: absolute;
+    bottom: 8px;
+    text-align: center;
 }
 
 .slideshow-container {
-  max-width: 1000px;
-  position: relative;
-  margin: auto;
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
 }
 
 .mySlides {
-  display: none;
+    display: none;
 }
 
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
 }
 
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
+    right: 0;
+    border-radius: 3px 0 0 3px;
 }
-
 /*bates isi about*/
 
+
 /* isi home */
-.backgroundhome h1{
-color: #fff;
-padding: 60px 0;
-font-size: 45px;
-text-transform: uppercase;
-text-align: center;
+.backgroundhome h1 {
+    color: #fff;
+    padding: 60px 0;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-align: center;
 }
 
-.backgroundhomelow h2{
-color: #fff;
-padding: 20px 40px;
-text-transform: uppercase;
-font-size: 45px;
+.backgroundhomelow h2 {
+    color: #fff;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-size: 45px;
 }
 
-.kotakgmbr img{
-float: left;
-width: 450px;
-padding: 0 30px;
-padding-right: 30px;
-margin-right: 50px;
+.kotakgmbr img {
+    float: left;
+    width: 450px;
+    padding: 0 30px;
+    padding-right: 30px;
+    margin-right: 50px;
 }
 
-.kontenjudul{
-margin-top: 20px;
-position: absolute;
-width: 30%;
-left: 400px;
+.kontenjudul {
+    margin-top: 20px;
+    position: absolute;
+    width: 30%;
+    left: 400px;
 }
 
-.kontenjudul h1{
-text-align: center;
-background-color: #fff;
-font-size: 40px;
-
+.kontenjudul h1 {
+    text-align: center;
+    background-color: #fff;
+    font-size: 40px;
 }
 
-.kontenisi{
-margin-top: 100px;
+.kontenisi {
+    margin-top: 100px;
 }
 
-.kontenisi p{
-color: #fff;
-font-size: 30px;
-line-height: 40px;
-width: 80%;
+.kontenisi p {
+    color: #fff;
+    font-size: 30px;
+    line-height: 40px;
+    width: 80%;
 }
 
-.backgroundhomelowkanan h2{
-content: "";
-color: #fff;
-padding: 20px 40px;
-text-transform: uppercase;
-font-size: 45px;
+.backgroundhomelowkanan h2 {
+    content: "";
+    color: #fff;
+    padding: 20px 40px;
+    text-transform: uppercase;
+    font-size: 45px;
 }
 
-.kotakgmbrkanan img{
-float: right;
-width: 450px;
-padding: 0 30px;
-padding-right: 30px;
-margin-right: 50px;
+.kotakgmbrkanan img {
+    float: right;
+    width: 450px;
+    padding: 0 30px;
+    padding-right: 30px;
+    margin-right: 50px;
 }
 
-.kontenjudulkanan{
-margin-top: 20px;
-position: absolute;
-width: 35%;
-left: 400px;
-}
-.kontenjudulkanan h1{
-text-align: center;
-background-color: #fff;
-font-size: 40px;
+.kontenjudulkanan {
+    margin-top: 20px;
+    position: absolute;
+    width: 35%;
+    left: 400px;
 }
 
-.kontenisikanan{
-margin-top: 100px;
-position: absolute;
-left: 200px;
+.kontenjudulkanan h1 {
+    text-align: center;
+    background-color: #fff;
+    font-size: 40px;
 }
 
-.kontenisikanan p{
-color: #fff;
-font-size: 35px;
-line-height: 40px;
-width: 60%;
+.kontenisikanan {
+    margin-top: 100px;
+    position: absolute;
+    left: 200px;
 }
 
-.kontenjudulbeda{
-margin-top: 20px;
-position: absolute;
-width: 35%;
-left: 400px;
+.kontenisikanan p {
+    color: #fff;
+    font-size: 35px;
+    line-height: 40px;
+    width: 60%;
 }
-.kontenjudulbeda h1{
-text-align: center;
-background-color: #fff;
-font-size: 40px;
+
+.kontenjudulbeda {
+    margin-top: 20px;
+    position: absolute;
+    width: 35%;
+    left: 400px;
+}
+
+.kontenjudulbeda h1 {
+    text-align: center;
+    background-color: #fff;
+    font-size: 40px;
 }
 
 
 /* untuk bagian the maw*/
-#bgloclow{
-  width: 100%;
-  height: 110vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+#bgloclow {
+    width: 100%;
+    height: 110vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
-#bgloclowjudul{
-  width: 100%;
-  height: 550px;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+
+#bgloclowjudul {
+    width: 100%;
+    height: 550px;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
-.tulknnloc{
-  padding-top: 100px;
+
+.tulknnloc {
+    padding-top: 100px;
 }
   
-.tulknnloc p{
-  color: #fff;
-  width: 85%;
-  line-height: 40px;
-  font-size: 30px;
-  font-weight: 300px;
+.tulknnloc p {
+    color: #fff;
+    width: 85%;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 300px;
 }
 
-#tulkirwrbdloc{
-  width: 50%;
-  padding-top: 100px;
+#tulkirwrbdloc {
+    width: 50%;
+    padding-top: 100px;
 }
 
-#tulkirwrbdloc h1{
-  color: black;
-  background-color: #fff;
-  font-size: 60px;
-  padding: 15px;
-  text-align: center;
-  margin-left: 80px;
-  position: absolute;
+#tulkirwrbdloc h1 {
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    padding: 15px;
+    text-align: center;
+    margin-left: 80px;
+    position: absolute;
 }
 
-#kirlocjudul{
-  width: 30%;
-  position: relative;
-  top: 150px;
+#kirlocjudul {
+    width: 30%;
+    position: relative;
+    top: 150px;
 }
 
-#kirlocjudul h1{
-  color: black;
-  background-color: #fff;
-  font-size: 60px;
-  width: 60%;
-  text-align: center;
-  font-weight: 500;
-  margin-left: 80px;
-  
+#kirlocjudul h1 {
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 80px;
 }
 
-#kirlocjudulldy{
-  width: 40%;
-  position: relative;
-  top: 150px;
-}
-#kirlocjudulldy h1{
-  color: black;
-  background-color: #fff;
-  font-size: 60px;
-  width: 65%;
-  text-align: center;
-  font-weight: 500;
-  margin-left: 80px;
-  
+#kirlocjudulldy {
+    width: 40%;
+    position: relative;
+    top: 150px;
 }
 
-#knnlocjudul{
-  width: 30%;
-  position: relative;
-  top: 80px;
-  left: 900px;
+#kirlocjudulldy h1 {
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    width: 65%;
+    text-align: center;
+    font-weight: 500;
+    margin-left: 80px;
 }
 
-#knnlocjudul h1{
-  color: black;
-  background-color: #fff;
-  font-size: 60px;
-  width: 60%;
-  text-align: center;
-  font-weight: 500;
-  
+#knnlocjudul {
+    width: 30%;
+    position: relative;
+    top: 80px;
+    left: 900px;
 }
 
-.gmbrleftloc img{
-  float: left;
-  width: 500px;
-  height: 300px;
-  padding-top: 100px;
-  margin-left: 100px;
-  padding-right: 150px;
-}
-.gleftlocbig img{
-  float: left;
-  width: 800px;
-  height: 450px;
-  padding-top: 100px;
-  margin-left: 100px;
-}
-.gknnlocbig img{
-  float: right;
-  width: 800px;
-  height: 450px;
-  padding-top: 100px;
-  margin-right: 220px;
+#knnlocjudul h1 {
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
 }
 
-#tulkirloc h1{
-  color: #fff;
-  font-size: 70px;
-  padding-top: 150px;
-  margin-bottom: 10px;
-  margin-left: 100px;
+.gmbrleftloc img {
+    float: left;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    margin-left: 100px;
+    padding-right: 150px;
 }
 
-#tulkirloc p{
-  color: #fff;
-  font-size: 40px;
-  margin-top: 100px;
-  width: 40%;
-  margin-left: 100px;
-  position: absolute;
+.gleftlocbig img {
+    float: left;
+    width: 800px;
+    height: 450px;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+
+.gknnlocbig img {
+    float: right;
+    width: 800px;
+    height: 450px;
+    padding-top: 100px;
+    margin-right: 220px;
+}
+
+#tulkirloc h1 {
+    color: #fff;
+    font-size: 70px;
+    padding-top: 150px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+}
+
+#tulkirloc p {
+    color: #fff;
+    font-size: 40px;
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 100px;
+    position: absolute;
 }
 /*sampe sini the maw*/
 
+
 /* bagian the prison*/
-.backgroundbawahprison{
-  height: 150vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
-}
-  
-  .backgroundbawahprisonbeda{
-  height: 100vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+.backgroundbawahprison {
+    height: 150vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
-.background h1{
-  color: #fff;
-  font-size: 70px;
-  padding: 30px;
-  margin-bottom: 10px;
-  margin-left: 15px;
+.backgroundbawahprisonbeda {
+    height: 100vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
-.background p{
-  color: #fff;
-  font-size: 30px;
-  padding: 30px;
-  width: 40%;
-  margin-left: 20px;
-  position: absolute;
+.background h1 {
+    color: #fff;
+    font-size: 70px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 
-#gambartheprisonkanan img{
-  float: right;
-  top: 10px;
-  margin-right: 130px;
-  padding-top: 30px;
-  width: 40%;
+.background p {
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+    width: 40%;
+    margin-left: 20px;
+    position: absolute;
 }
 
-.backgroundbawahprison h1{
-  color: #fff;
-  font-size: 70px;
-  padding: 30px;
-  margin-bottom: 10px;
-  margin-left: 15px;
+#gambartheprisonkanan img {
+    float: right;
+    top: 10px;
+    margin-right: 130px;
+    padding-top: 30px;
+    width: 40%;
 }
 
-.backgroundbawahprison p{
-  color: #fff;
-  font-size: 30px;
-  padding: 30px;
-  width: 40%;
-  margin-left: 20px;
+.backgroundbawahprison h1 {
+    color: #fff;
+    font-size: 70px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 
-.backgroundbawahprisonbeda h1{
-  color: #fff;
-  font-size: 70px;
-  padding: 30px;
-  margin-bottom: 10px;
-  margin-left: 15px;
+.backgroundbawahprison p {
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+    width: 40%;
+    margin-left: 20px;
 }
 
-.backgroundbawahprisonbeda p{
-  color: #fff;
-  font-size: 30px;
-  padding: 30px;
-  width: 40%;
-  margin-left: 20px;
+.backgroundbawahprisonbeda h1 {
+    color: #fff;
+    font-size: 70px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
+
+.backgroundbawahprisonbeda p {
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+    width: 40%;
+    margin-left: 20px;
+}
+
 #deskpriskanan {
-  margin-top: 460px;
-  position: absolute;
-  text-align: right;
-  right: 100px;
+    margin-top: 460px;
+    position: absolute;
+    text-align: right;
+    right: 100px;
 }
 
-#gambarkiri img{
-  float: left;
-  width: 40%;
-  padding-top: 50px;
-  margin-left: 50px;
+#gambarkiri img {
+    float: left;
+    width: 40%;
+    padding-top: 50px;
+    margin-left: 50px;
 }
 
-#solutionkanan{
-  position: absolute;
-  text-align: right;
-  right: 80px;
+#solutionkanan {
+    position: absolute;
+    text-align: right;
+    right: 80px;
 }
 
-#palingbawahprison{
-  color: #fff;
-  font-size: 30px;
-  padding: 30px;
-  width: 40%;
-  margin-left: 20px;
-  position: absolute;
+#palingbawahprison {
+    color: #fff;
+    font-size: 30px;
+    padding: 30px;
+    width: 40%;
+    margin-left: 20px;
+    position: absolute;
 }
 
 .backgroundbawahprisonbeda textarea {
-  width: 60%;
-  height: 40%;
-  margin-left: 40px;
-  font-size: 20px;
-  font-family: calibri;
+    width: 60%;
+    height: 40%;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: calibri;
 }
 
-.button{
-  text-decoration: none;
-  margin-left: 40px;
-  padding: 15px 32px;
-  cursor: pointer;
-  background-color: #91672c;
-  border: none;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: calibri ;
-  color: white;
-  text-transform: uppercase;
+.button {
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 15px 32px;
+    cursor: pointer;
+    background-color: #91672c;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: calibri ;
+    color: white;
+    text-transform: uppercase;
 }
-
 /* akhir bagian the prison*/
 
+
 /*bagian komentar*/
-.backgroundkomentar{
-  height: 100vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+.backgroundkomentar {
+    height: 100vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
-.backgroundkomentar h1{
-color: #fff;
-font-size: 70px;
-padding: 30px;
-margin-bottom: 10px;
-margin-left: 15px;
+.backgroundkomentar h1 {
+    color: #fff;
+    font-size: 70px;
+    padding: 30px;
+    margin-bottom: 10px;
+    margin-left: 15px;
 }
 
-.backgroundkomentar p{
-color: #fff;
-font-size: 40px;
-padding: 30px;
-width: 40%;
-margin-left: 20px;
+.backgroundkomentar p {
+    color: #fff;
+    font-size: 40px;
+    padding: 30px;
+    width: 40%;
+    margin-left: 20px;
 }
 
 .backgroundkomentar textarea {
-width: 60%;
-height: 40%;
-margin-left: 40px;
-font-size: 20px;
-font-family: calibri;
+    width: 60%;
+    height: 40%;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: calibri;
 }
 
-.button{
-text-decoration: none;
-margin-left: 40px;
-padding: 15px 32px;
-cursor: pointer;
-background-color: #91672c;
-border: none;
-font-size: 15px;
-font-weight: 500;
-font-family: calibri ;
-color: white;
-text-transform: uppercase;
+.button {
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 15px 32px;
+    cursor: pointer;
+    background-color: #91672c;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: calibri ;
+    color: white;
+    text-transform: uppercase;
 }
 
-#inputnama{
-  width: 30%;
-  height: 50px;
-  margin-left: 40px;
-  font-size: 20px;
-  font-family: calibri;
+#inputnama {
+    width: 30%;
+    height: 50px;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: calibri;
 }
 
-#komentar{
-  color: white;
-  font-size: 40px;
-  margin-left: 40px;
+#komentar {
+    color: white;
+    font-size: 40px;
+    margin-left: 40px;
 }
 /*akhir bagian komentar*/
 
-/* bagian story*/
-#bgstory{
-  height: 90vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
-  }
 
-#tulkirwrbdst{
+/* bagian story*/
+#bgstory {
+    height: 90vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+}
+
+#tulkirwrbdst {
     width: 40%;
     padding-top: 100px;
 }
   
-#tulkirwrbdst h1{
+#tulkirwrbdst h1 {
     color: black;
     background-color: #fff;
     font-size: 60px;
@@ -936,11 +961,11 @@ text-transform: uppercase;
     position: absolute;
 }
 
-.tulknnst{
+.tulknnst {
     padding-top: 100px;
 }
     
-.tulknnst p{
+.tulknnst p {
     color: #fff;
     width: 90%;
     line-height: 40px;
@@ -948,115 +973,117 @@ text-transform: uppercase;
     font-weight: 300px;
 }
 
-.gmbrleftst img{
-      float: left;
-      width: 500px;
-      height: 300px;
-      padding-top: 100px;
-      margin-left: 100px;
-      padding-right: 150px;
+.gmbrleftst img {
+    float: left;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    margin-left: 100px;
+    padding-right: 150px;
 }
 
-.gmbrleftstjt img{
-        float: left;
-        width: 450px;
-        height: 400px;
-        padding-top: 100px;
-        margin-left: 150px;
-        padding-right: 120px;
+.gmbrleftstjt img {
+    float: left;
+    width: 450px;
+    height: 400px;
+    padding-top: 100px;
+    margin-left: 150px;
+    padding-right: 120px;
 }
 
-#bgdesklowmj{
-  width: 100%;
-  height: 120vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+#bgdesklowmj {
+    width: 100%;
+    height: 120vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
-#gambarst img{
-  float: left;
-  width: 400px;
-  height: 300px;
-  padding-top: 100px;
-  margin-left: 60px;
+#gambarst img {
+    float: left;
+    width: 400px;
+    height: 300px;
+    padding-top: 100px;
+    margin-left: 60px;
 }
         
-#gambarbwhst img{
-  position: relative;
- float: left;
- width: 400px;
- height: 300px;
- padding-top: 100px;
- padding-right: 170px;
- top: 350px;
- margin-left: -400px;
+#gambarbwhst img {
+    position: relative;
+    float: left;
+    width: 400px;
+    height: 300px;
+    padding-top: 100px;
+    padding-right: 170px;
+    top: 350px;
+    margin-left: -400px;
 }
 
-.tulknnstldy{
-  padding-top: 100px;
+.tulknnstldy {
+    padding-top: 100px;
 }
   
-.tulknnstldy p{
-  color: #fff;
-  width: 100%;
-  line-height: 40px;
-  font-size: 30px;
-  font-weight: 300px;
+.tulknnstldy p {
+    color: #fff;
+    width: 100%;
+    line-height: 40px;
+    font-size: 30px;
+    font-weight: 300px;
 }
 
-#tulkirrtknnst p{
-  color: #fff;
-  font-size: 35px;
-  text-align: right;
-  margin-top: 100px;
-  width: 40%;
-  margin-left: 60px;
-  position: absolute;
+#tulkirrtknnst p {
+    color: #fff;
+    font-size: 35px;
+    text-align: right;
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 60px;
+    position: absolute;
 }
 
-.gmbrknnst img{
-  float: right;
-  width: 500px;
-  height: 300px;
-  padding-top: 100px;
-  padding-right: 30px;
-  margin-right: 100px;
+.gmbrknnst img {
+    float: right;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    padding-right: 30px;
+    margin-right: 100px;
 }
 /*story sampe sini*/
 
 
 /*bagian the lair dan bagian the guest*/
-#bglair{
-  height: 90vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
-  }
+#bglair {
+    height: 90vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+}
   
-#bglairlow{
+#bglairlow {
     width: 100%;
     height: 90vh;
     background-color: #fff;
     background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
-#bglairlowjr{
-  width: 100%;
-  height: 130vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
-}
-#bglairlowpanjang{
-  width: 100%;
-  height: 180vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+
+#bglairlowjr {
+    width: 100%;
+    height: 130vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
-#tulkirwrbdlr{
+#bglairlowpanjang {
+    width: 100%;
+    height: 180vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+#tulkirwrbdlr {
     width: 40%;
     padding-top: 100px;
 }
   
-#tulkirwrbdlr h1{
+#tulkirwrbdlr h1 {
     color: black;
     background-color: #fff;
     font-size: 60px;
@@ -1066,11 +1093,11 @@ text-transform: uppercase;
     position: absolute;
 }
 
-.tulknnlr{
+.tulknnlr {
     padding-top: 100px;
 }
     
-.tulknnlr p{
+.tulknnlr p {
     color: #fff;
     width: 100%;
     line-height: 40px;
@@ -1078,112 +1105,7 @@ text-transform: uppercase;
     font-weight: 300px;
 }
 
-#tulkirlr p{
-  color: #fff;
-  font-size: 35px;
-  text-align: right;
-  margin-top: 100px;
-  width: 40%;
-  margin-left: 60px;
-  position: absolute;
-}
-
-.gmbrleftlr img{
-      float: left;
-      width: 500px;
-      height: 300px;
-      padding-top: 100px;
-      margin-left: 100px;
-      padding-right: 150px;
-}
-
-.gmbrleftlrswing img{
-  float: left;
-  width: 500px;
-  height: 300px;
-  padding-top: 100px;
-  margin-left: 30px;
-  padding-right: 50px;
-}
-
-.gmbrknnlr img{
-  float: right;
-  width: 500px;
-  height: 300px;
-  padding-top: 100px;
-  padding-right: 30px;
-  margin-right: 100px;
-}
-
-.gmbrknnlrdesk img{
-  float: right;
-  width: 500px;
-  height: 300px;
-  padding-top: 300px;
-  padding-right: 30px;
-  margin-right: 100px;
-}
-
-.gmbrknnlrjr img{
-  float: right;
-  width: 500px;
-  height: 300px;
-  padding-top: 220px;
-  padding-right: 30px;
-  margin-right: 100px;
-}
-
-.gmbrleftlrjr img{
-  float: left;
-  width: 500px;
-  height: 300px;
-  padding-top: 100px;
-  margin-left: 50px;
-  padding-right: 60px;
-}
-/*akhir bagian the lair dan guest area*/
-
-/*bagian the kitchen*/
-#bgkitchen{
-  height: 90vh;
-  background-color: #fff;
-  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
-  }
-
-  #bgkclow{
-    width: 100%;
-    height: 100vh;
-    background-color: #fff;
-    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
-}
-
-  .gmbrknnkc img{
-    float: right;
-    width: 500px;
-    height: 300px;
-    padding-top: 100px;
-    padding-right: 30px;
-    margin-right: 100px;
-  }
-
-  #knnkcjudul{
-    width: 30%;
-    position: relative;
-    top: 80px;
-    left: 600px;
-  }
-  
-  #knnkcjudul h1{
-    color: black;
-    background-color: #fff;
-    font-size: 60px;
-    width: 60%;
-    text-align: center;
-    font-weight: 500;
-    
-  }
-
-  #tulkirkc p{
+#tulkirlr p {
     color: #fff;
     font-size: 35px;
     text-align: right;
@@ -1191,14 +1113,118 @@ text-transform: uppercase;
     width: 40%;
     margin-left: 60px;
     position: absolute;
-  }
+}
 
-  #tulkirkc h1{
+.gmbrleftlr img {
+    float: left;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    margin-left: 100px;
+    padding-right: 150px;
+}
+
+.gmbrleftlrswing img {
+    float: left;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    margin-left: 30px;
+    padding-right: 50px;
+}
+
+.gmbrknnlr img {
+    float: right;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    padding-right: 30px;
+    margin-right: 100px;
+}
+
+.gmbrknnlrdesk img {
+    float: right;
+    width: 500px;
+    height: 300px;
+    padding-top: 300px;
+    padding-right: 30px;
+    margin-right: 100px;
+}
+
+.gmbrknnlrjr img {
+    float: right;
+    width: 500px;
+    height: 300px;
+    padding-top: 220px;
+    padding-right: 30px;
+    margin-right: 100px;
+}
+
+.gmbrleftlrjr img {
+    float: left;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    margin-left: 50px;
+    padding-right: 60px;
+}
+/*akhir bagian the lair dan guest area*/
+
+
+/*bagian the kitchen*/
+#bgkitchen {
+    height: 90vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+}
+
+#bgkclow {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+.gmbrknnkc img {
+    float: right;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    padding-right: 30px;
+    margin-right: 100px;
+}
+
+#knnkcjudul {
+    width: 30%;
+    position: relative;
+    top: 80px;
+    left: 600px;
+}
+  
+#knnkcjudul h1 {
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+}
+
+#tulkirkc p {
+    color: #fff;
+    font-size: 35px;
+    text-align: right;
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 60px;
+    position: absolute;
+ }
+
+ #tulkirkc h1 {
     color: #fff;
     font-size: 70px;
     padding-top: 150px;
     margin-bottom: 10px;
     margin-left: 100px;
-  }
+ }
 /* bagian akhr kitchen*/
-
