@@ -88,6 +88,22 @@ background-position: center;
   background-position: center;
   }
 
+  .bannerlocationtheguest{
+    width: 100%;
+    height: 80vh;
+    background-image: url(guestarea.png);
+    background-size: cover;
+    background-position: center;
+    }
+
+  .bannerlocationthekitchen{
+    width: 100%;
+    height: 80vh;
+    background-image: url(thekitchen.jpg);
+    background-size: cover;
+    background-position: center;
+    }
+
 .bannerlocationprison{
   width: 100%;
   height: 80vh;
@@ -114,7 +130,7 @@ color: #fff;
 .judulpagelocation{
 width: 100%;
 position: absolute;
-top: 35%;
+top: 40%;
 transform: translateY(-50%);
 text-align: center;
 color: #fff;
@@ -449,14 +465,37 @@ background-color:  linear-gradient(to bottom, #050E1D, #050E1E);;
 /* sampai sini */
 
 /* isi about */
-.backgroundabout .kotakabout{
-margin-left: auto;
-margin-right: auto;
+.text {
+  color: black;
+  font-size: 15px;
+  position: absolute;
+  bottom: 8px;
+
+  text-align: center;
 }
 
-.kotakgambar img{
-width: 40%;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
 /*bates isi about*/
 
 /* isi home */
@@ -562,7 +601,7 @@ font-size: 40px;
 }
 
 
-/* untuk bagian themaw*/
+/* untuk bagian the maw*/
 #bgloclow{
   width: 100%;
   height: 110vh;
@@ -691,7 +730,7 @@ font-size: 40px;
   margin-left: 100px;
   position: absolute;
 }
-/*sampe sini themaw*/
+/*sampe sini the maw*/
 
 /* bagian the prison*/
 .backgroundbawahprison{
@@ -986,7 +1025,7 @@ text-transform: uppercase;
 /*story sampe sini*/
 
 
-/*bagian the lair*/
+/*bagian the lair dan bagian the guest*/
 #bglair{
   height: 90vh;
   background-color: #fff;
@@ -995,13 +1034,13 @@ text-transform: uppercase;
   
 #bglairlow{
     width: 100%;
-    height: 70vh;
+    height: 90vh;
     background-color: #fff;
     background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 #bglairlowjr{
   width: 100%;
-  height: 110vh;
+  height: 130vh;
   background-color: #fff;
   background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
@@ -1102,4 +1141,64 @@ text-transform: uppercase;
   margin-left: 50px;
   padding-right: 60px;
 }
-/*akhir bagian the lair*/
+/*akhir bagian the lair dan guest area*/
+
+/*bagian the kitchen*/
+#bgkitchen{
+  height: 90vh;
+  background-color: #fff;
+  background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+  }
+
+  #bgkclow{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+  .gmbrknnkc img{
+    float: right;
+    width: 500px;
+    height: 300px;
+    padding-top: 100px;
+    padding-right: 30px;
+    margin-right: 100px;
+  }
+
+  #knnkcjudul{
+    width: 30%;
+    position: relative;
+    top: 80px;
+    left: 600px;
+  }
+  
+  #knnkcjudul h1{
+    color: black;
+    background-color: #fff;
+    font-size: 60px;
+    width: 60%;
+    text-align: center;
+    font-weight: 500;
+    
+  }
+
+  #tulkirkc p{
+    color: #fff;
+    font-size: 35px;
+    text-align: right;
+    margin-top: 100px;
+    width: 40%;
+    margin-left: 60px;
+    position: absolute;
+  }
+
+  #tulkirkc h1{
+    color: #fff;
+    font-size: 70px;
+    padding-top: 150px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+  }
+/* bagian akhr kitchen*/
+
