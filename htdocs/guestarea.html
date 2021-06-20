@@ -150,14 +150,16 @@
     <section>
         <div class="backgroundkomentar">
             <h1>comments</h1>
-            <form action="tampil.php" method="GET">
-                <input type="text" name="vnama" id="inputnama" placeholder="Name*"><br><br>
-                <input type="text" name="vemail" id="inputnama" placeholder="Email*"><br><br>
-                <textarea for="isipesan" name="vkomen" placeholder="Write comment*"></textarea><br><br>
-                <button class="button" name="vsend">Send</button>
+            <form action="konfirmasi.php" method="POST">
+                <input type="text" name="nama" id="inputnama" placeholder="Name*"><br><br>
+                <input type="text" name="email" id="inputnama" placeholder="Email*"><br><br>
+                <textarea name="komentar" placeholder="Write comment*"></textarea><br><br>
+                <!--button class="button" name="send">Send</button-->
+                <input type="submit" value="Kirim">
+                <input type="reset" value="Batal">
             </form>
-            </div>
-      </section>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="kotak">
