@@ -83,6 +83,13 @@
     background-size: cover;
     background-position: center;
 }
+.bannerlocationladyroom {
+    width: 100%;
+    height: 80vh;
+    background-image: url(gambar/ladyroom.png);
+    background-size: cover;
+    background-position: center;
+}
 
 .bannerlocationthelair {
     width: 100%;
@@ -119,6 +126,20 @@
 .bannerabout {
     width:100%;
     height:40vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+}
+
+.banneritem {
+    width:100%;
+    height:50vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
+}
+
+.bannerlantern {
+    width:100%;
+    height:50vh;
     background-color: #fff;
     background-image: linear-gradient(to bottom, #1C3561, #0D1A2E, #0A1420, #050E1D, #050E1E);
 }
@@ -485,34 +506,62 @@ ul {
 
 
 /* isi about */
-.text {
-    color: black;
-    font-size: 15px;
-    position: absolute;
-    bottom: 8px;
+#bgabout {
+    width: 100%;
+    height: 110vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+#judulteam{
+    color: #fff;
     text-align: center;
+    font-size: 40px;
 }
 
-.slideshow-container {
-    max-width: 1000px;
-    position: relative;
-    margin: auto;
+.column {
+    color: #fff;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right:auto ;
+    width: 40%;
+    padding-right: 40px;
+  }
+
+.column img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    height: 300px;
 }
 
-.mySlides {
-    display: none;
+.column #dio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height: 250px;
 }
 
-.fade {
-    -webkit-animation-name: fade;
-    -webkit-animation-duration: 1.5s;
-    animation-name: fade;
-    animation-duration: 1.5s;
+.column #ica{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 210px;
+    height: 250px;
 }
 
-.next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+.column h2{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.column p{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 40px;
 }
 /*bates isi about*/
 
@@ -862,7 +911,7 @@ ul {
     font-family: calibri;
 }
 
-.button {
+input[type=submit] {
     text-decoration: none;
     margin-left: 40px;
     padding: 15px 32px;
@@ -909,7 +958,21 @@ ul {
     font-family: calibri;
 }
 
-.button {
+input[type=submit] {
+    text-decoration: none;
+    margin-left: 40px;
+    padding: 15px 32px;
+    cursor: pointer;
+    background-color: #91672c;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    font-family: calibri ;
+    color: white;
+    text-transform: uppercase;
+}
+
+input[type=reset] {
     text-decoration: none;
     margin-left: 40px;
     padding: 15px 32px;
@@ -1228,3 +1291,174 @@ ul {
     margin-left: 100px;
  }
 /* bagian akhr kitchen*/
+
+/*bagian komentar php*/
+#bgtampil {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+@font-face {
+    font-family: 'milkynice';
+    src: url(font/MilkyNice.ttf);
+    font-style: normal;
+}
+#tulisanphp{
+    font-family: milkynice;
+    color: #fff;
+   font-size: 20px;
+   line-height: 50px;
+   margin-left: 100px;
+}
+
+#judultampil{
+    color: #fff;
+    margin-bottom: 50px;
+    font-size: 40px;
+}
+
+.button {
+    text-decoration: none;
+    padding: 10px 12px;
+    cursor: pointer;
+    background-color: #91672c;
+    border: none;
+    font-size: 12px;
+    font-weight: 500;
+    font-family: calibri ;
+    color: white;
+    text-transform: uppercase;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+/*bagian akhir liat komentar php*/
+
+/*bagian konfirmasi php*/
+#bgkonfirm {
+    width: 100%;
+    height: 90vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+#stylekonfirm a{
+    font-size: 40px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 100px;
+}
+
+#stylekonfirm h1{
+    font-size: 30px;
+    margin-bottom: 150px;
+    color: #fff;
+    margin-left: 100px;
+}
+/* bagian akhir konfirmasi php*/
+
+/*bagian item*/
+#bgitem {
+    width: 100%;
+    height: 110vh;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+#bgitemgambar{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    background-image: linear-gradient(to bottom, #050E1D, #050E1E);
+}
+
+.gmbrleftstatue img {
+    float: left;
+    width: 600px;
+    height: 600px;
+    padding-top: 20px;
+    margin-left: 200px;
+    padding-right: 150px;
+}
+#tulkitem h1 {
+    color: #fff;
+    font-size: 70px;
+    padding-top: 150px;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+#judulwarna{
+    width: 50%;
+}
+#judulwarna h1 {
+    color: black;
+    text-align: center;
+    width: 30%;
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: 300;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+#judullady{
+    width: 50%;
+}
+
+#judullady h1 {
+    color: black;
+    text-align: center;
+    width: 40%;
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: 300;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-left: 200px;
+}
+
+#gambaritem img{
+    width: 1000px;
+    height: 500px;
+    margin-top: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}
+/*akhir bagian statue*/
+
+/*bagian lantern*/
+.gmbrleftlantern img {
+    float: left;
+    width: 600px;
+    height: 500px;
+    margin-left: 200px;
+}
+
+#judwarnalt{
+    width: 50%;
+    position: relative;
+    top: 40px;
+}
+#judwarnalt h1 {
+    color: black;
+    text-align: center;
+    width: 30%;
+    font-size: 50px;
+    margin-top: 100px;
+    font-weight: 300;
+    background-color: #fff;
+    margin-left: 200px;
+}
+
+#gambarlantern img{
+    width: 1000px;
+    height: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 50px;
+}

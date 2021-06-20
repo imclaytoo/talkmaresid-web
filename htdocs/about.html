@@ -3,40 +3,8 @@
 <head>
     <title>Little Nightmare</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
-    <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
-          
-        function plusSlides(n) {
-            showSlides(slideIndex += n);
-        }
-          
-        function currentSlide(n) {
-            showSlides(slideIndex = n);
-        }
-          
-        function showSlides(n) {
-            var i;
-            var slides = document.getElementsByClassName("mySlides");
-            var dots = document.getElementsByClassName("dot");
-
-            if (n > slides.length) {slideIndex = 1}    
-            if (n < 1) {slideIndex = slides.length}
-
-            for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-            }
-
-            for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-            }
-            
-            slides[slideIndex-1].style.display = "block";  
-            dots[slideIndex-1].className += " active";
-        }
-    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
@@ -52,17 +20,23 @@
                     <div class="dropdown">
                         <button class="dropbtn">Content</button>
 	                    <div class="dropdown-content">
-        	                <a href="location.html">Location</a>
+        	                <a href="#">Location</a>
                             <div class="dropdown">
                 	            <a href="themaw.html"> -> The Maw</a>
+                            </div>
+                            <a href="#">Levels</a>
+                            <div class="dropdown">
                                 <a href="prison.html"> -> Prison</a>
                                 <a href="thelair.html"> -> The Lair</a>
                                 <a href="kitchen.html"> -> Kitchen</a>
                 	            <a href="guestarea.html"> -> Guest Area</a>
-                                <a href="#"> -> The Lady's Quarter</a>
+                                <a href="ladyroom.html"> -> The Lady's Quarter</a>
                             </div>
-                            <a href="#">Levels</a>
                	            <a href="#">Items</a>
+                            <div class="dropdown">
+                                <a href="statue.html"> -> Statue</a>
+                                <a href="lantern.html"> -> Lantern</a>
+                            </div>
                         </div>
                     </div>
 
@@ -74,29 +48,42 @@
     </nav>
 
     <section>
-        <div class="slideshow-container">
-            <div class="mySlides fade">
-                <img src="../gambar/erlang.jpg">
-                <div class="text">Caption Text</div>
+        <div id="bgabout">
+            <div id="judulteam">
+                <h1>Our Team</h1>
             </div>
-              
-            <div class="mySlides fade">
-                <img src="../gambar/naufal.JPG" style="width:100%">
-                <div class="text">Caption Two</div>
+
+            <div class="row">
+                <div class="column">
+                    <img src="gambar/erlang.png">
+                  <h2>Erlangga Setiawan</h2>
+                  <p>Web developer</p>
+                </div>
+                <div class="column">
+                    <img src="gambar/naufal.png">
+                  <h2>Naufal fahim murran</h2>
+                  <p>Web developer</p>
+                </div>
             </div>
-              
-            <div class="mySlides fade">
-                <img src="../gambar/prison1.png" style="width:100%">
-                <div class="text">Caption Three</div>
-            </div>
-              
-            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-            <a class="next" onclick="plusSlides(1)">&#10095;</a>
-              
         </div>
-        <br>
     </section>
 
+    <section>
+        <div id="bgabout">
+            <div class="row">
+                <div class="column">
+                    <img id="dio" src="gambar/dio.png">
+                  <h2>Dionovan Ramadhani</h2>
+                  <p>UI/UX Designer</p>
+                </div>
+                <div class="column">
+                    <img id="ica" src="gambar/fenica.png">
+                  <h2>Fenica salsabila M.</h2>
+                  <p>UI/UX Designer</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="footer">
         <div class="kotak">
