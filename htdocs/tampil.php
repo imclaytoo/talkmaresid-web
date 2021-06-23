@@ -72,8 +72,8 @@
                 <td><?php echo "<br>";?></td>
                 <td><?php echo $row['isi'];?></td>
                 <td><?php echo "<br>";?></td>
-                <td><a href="edit.php?idx=<?php echo $row['id'];?>">Edit</a>
-                <td><a href="hapus.php?idx=<?php echo $row['id'];?>">Hapus</a>
+                <td><a class="button" href="edit.php?idx=<?php echo $row['id'];?>">Edit</a>
+                <td><a class="button" href="hapus.php?idx=<?php echo $row['id'];?>"onclick="return confirm ('Are you sure want to delete this comment?')">Delete</a>
                 <td><?php echo "<br><br>";?></td>
             </tr>
             <?php

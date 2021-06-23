@@ -85,7 +85,7 @@
 	        if (mysqli_query($koneksi, $sql)) {
 		        echo "1 data berhasil diupdate";
                 echo "<br>";
-                echo "<a href='tampil.php'>Show Comments</a>";
+                echo "<a class='button' href='tampil.php'>Show Comments</a>";
 	        }
             else {
 		        echo "Gagal update data!";
