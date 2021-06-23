@@ -5,9 +5,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
 </head>
-<body>
 
-<nav>
+<body>
+    <nav>
         <div class="bannerabout">
             <div class="headernav">
                 <img src="gambar/logo-white.png" class="logo">
@@ -15,14 +15,15 @@
                     <li><a href="home.html">Home</a></li>
                     <li><a href="deskripsi.html">Description</a></li>
                     <li><a href="story.html">Story</a></li>
-
                     <div class="dropdown">
                         <button class="dropbtn">Content</button>
 	                    <div class="dropdown-content">
         	                <a href="#">Location</a>
+
                             <div class="dropdown">
                 	            <a href="themaw.html"> -> The Maw</a>
                             </div>
+
                             <a href="#">Levels</a>
                             <div class="dropdown">
                                 <a href="prison.html"> -> Prison</a>
@@ -31,6 +32,7 @@
                 	            <a href="guestarea.html"> -> Guest Area</a>
                                 <a href="ladyroom.html"> -> The Lady's Quarter</a>
                             </div>
+
                	            <a href="#">Items</a>
                             <div class="dropdown">
                                 <a href="statue.html"> -> Statue</a>
@@ -38,7 +40,6 @@
                             </div>
                         </div>
                     </div>
-
                     <li><a href="about.html">About</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
@@ -47,38 +48,36 @@
     </nav>
 
 	<div id="bgtampil">
-	<div id="tulisanphp">
-        <div id="judultampil">
-        <h1>Comment</h1>
-        </div>
+	    <div id="tulisanphp">
+            <div id="judultampil">
+                <h1>Comment</h1>
+            </div>
 	
-	<?php
-		include 'koneksi.php';
+	        <?php
+		        include 'koneksi.php';
 
-		$sql = 'SELECT * FROM data';
-
-		$query = mysqli_query($koneksi, $sql);
-		if (!$query) {
-			die ('SQL Error: '.mysqli_error($koneksi));
-		}
+		        $sql = 'SELECT * FROM data';
+		        $query = mysqli_query($koneksi, $sql);
+		        if (!$query) {
+			        die ('SQL Error: '.mysqli_error($koneksi));
+		        }
 	
-		//Ini tampilan output komentar
-		while ($row = mysqli_fetch_array($query)){
-			echo $row['nama'];
-			echo " | ";
-			echo $row['email'];
-			echo "<br>";
-		    echo $row['isi'];
-			echo '<br><button class="button">Reply</button>';
-			echo '<button class="button">Bagikan ></button>';
-			echo "<br><br>";
-		}
-	?>
+		        //Ini tampilan output komentar
+		        while ($row = mysqli_fetch_array($query)){
+			        echo $row['nama'];
+			        echo " | ";
+			        echo $row['email'];
+			        echo "<br>";
+		            echo $row['isi'];
+			        echo '<br><button class="button">Reply</button>';
+			        echo '<button class="button">Bagikan ></button>';
+			        echo "<br><br>";
+		        }
+	        ?>
+	    </div>
 	</div>
-	</div>
-	
 
-<footer class="footer">
+    <footer class="footer">
         <div class="kotak">
             <div class="row">
                 <div class="footer-col">
@@ -115,6 +114,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>
