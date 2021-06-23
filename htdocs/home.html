@@ -3,7 +3,7 @@
 <head>
     <title>Little Nightmare</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href='https://fonts.googleapis.com/css?family=Amatic SC' rel='stylesheet'>
 </head>
 
@@ -40,8 +40,8 @@
                         </div>
                     </div>
 
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
 
@@ -71,6 +71,7 @@
     <section>
         <div class="backgroundhome">
             <h1>watch trailer</h1>
+            <iframe  src="https://www.youtube.com/embed/aOadxZBsPiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
     </section>
 
@@ -132,8 +133,119 @@
     </section>
 
     <section>
-        <div class="backgroundhomelow">
-            <h2>character</h2>
+        <div class="backgroundhomechara">
+            <h1>character</h1>
+
+            <div class="slideshow-container">
+
+                <div class="mySlides fade">
+                  <img id= "sixchara" src="gambar/Six.png" >
+                  <div class="judul">six</div>
+                  <div class="title">a Hungry Child</div>
+                  <div class="text">Trapped in the darkest dephts of The Maw, starving and alone
+                    Six's world is one filled with danger. Most children
+                    have already given up, but six is different. She's smart, and tough,
+                    and has a lovely yellow raincoat. She belongs elsewhere.</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="gambar/Twin_Chefs.png">
+                  <div class="judul">The Twin Chef</div>
+                  <div class="title">A Pair of Brutes</div>
+                  <div class="text">With a love of violance and a feeling of meat, the twins were be born to be chefs. As they shuffle
+                    across the cold floor, chopping, mincing, preparing the feast, The Twin Chefs sense something
+                    that makes their skin itch. A dirty, unwelcome presence. Vermin will not be tolerated
+                    in the kitchen.</div>
+                </div>
+                
+                <div class="mySlides fade">
+                  <img src="gambar/ln_lady.png">
+                  <div class="judul">The Lady</div>
+                  <div class="title">A Watchfull eye</div>
+                  <div class="text">With Gracefull restraint, The Lady cast the hypnotic spell that keeps the engine running. 
+                    Amidst the chaos of the world outside, the maw is the only place that makes sense, and now this rumour
+                    of an escaped child threatens evertything. Nothing can be allowed to interfere.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="gambar/ln_guest.png">
+                    <div class="judul">The Guest</div>
+                  <div class="title">Full to Bursting</div>
+                  <div class="text">The Guest are on essential part of the maw's life cycle. Herded into the large hall, they slump into
+                    their bowing stools, and there they feed. Without taste, without need, without end.</div>
+                  </div>
+
+                <div class="mySlides fade">
+                    <img src="gambar/ln_janitor.png">
+                    <div class="judul">The Janitor</div>
+                  <div class="title">The Man with the Long Arms</div>
+                  <div class="text">with long forgotten things from long forgotten places, he fled the world and found The Maw.
+                    Now as the Janitor he is a tall tale hiding in the shadows,
+                    stalking the silence, a monster alone.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="gambar/ln_leech.png">
+                    <div class="judul">The Leeches</div>
+                  <div class="title">Bloodsuckers</div>
+                  <div class="text">In the dark, moist corner of the maw, the leeches writhe as one, awaiting the
+                    swollen wanderers. Slimy, venomous parasites that feed on the living.</div>
+                </div>
+
+                <div class="mySlides fade">
+                    <img src="gambar/ln_nome.png">
+                    <div class="judul">Nomes</div>
+                  <div class="title">Playful Addities</div>
+                  <div class="text">Unpredictability can be find throughout The Maw, and so can the Nomes.
+                    Though experience has taught them to be skittish, some still try to make
+                    friends with strangers. These Nomes rarely survives.</div>
+                </div>
+                
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                
+                </div>
+                <br>
+                
+                <div style="text-align:center">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                  <span class="dot" onclick="currentSlide(4)"></span> 
+                  <span class="dot" onclick="currentSlide(5)"></span> 
+                  <span class="dot" onclick="currentSlide(6)"></span> 
+                  <span class="dot" onclick="currentSlide(7)"></span> 
+                </div>
+                
+                <script>
+                var slideIndex = 1;
+                showSlides(slideIndex);
+                
+                function plusSlides(n) {
+                  showSlides(slideIndex += n);
+                }
+                
+                function currentSlide(n) {
+                  showSlides(slideIndex = n);
+                }
+                
+                function showSlides(n) {
+                  var i;
+                  var slides = document.getElementsByClassName("mySlides");
+                  var dots = document.getElementsByClassName("dot");
+                  if (n > slides.length) {slideIndex = 1}    
+                  if (n < 1) {slideIndex = slides.length}
+                  for (i = 0; i < slides.length; i++) {
+                      slides[i].style.display = "none";  
+                  }
+                  for (i = 0; i < dots.length; i++) {
+                      dots[i].className = dots[i].className.replace(" active", "");
+                  }
+                  slides[slideIndex-1].style.display = "block";  
+                  dots[slideIndex-1].className += " active";
+                }
+                </script>
+                
         </div>
     </section>
 

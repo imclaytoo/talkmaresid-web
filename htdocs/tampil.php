@@ -40,8 +40,8 @@
                             </div>
                         </div>
                     </div>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
                 </ul>
             </div>
         </div>
