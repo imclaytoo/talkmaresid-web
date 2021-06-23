@@ -56,24 +56,35 @@
 	        <?php
 		        include 'koneksi.php';
 
-		        $sql = 'SELECT * FROM data';
-		        $query = mysqli_query($koneksi, $sql);
+		        $sql    = 'SELECT * FROM data';
+		        $query  = mysqli_query($koneksi, $sql);
 		        if (!$query) {
 			        die ('SQL Error: '.mysqli_error($koneksi));
 		        }
-	
+
 		        //Ini tampilan output komentar
 		        while ($row = mysqli_fetch_array($query)){
-			        echo $row['nama'];
-			        echo " | ";
-			        echo $row['email'];
-			        echo "<br>";
-		            echo $row['isi'];
-			        echo '<br><button class="button">Reply</button>';
-			        echo '<button class="button">Bagikan ></button>';
-			        echo "<br><br>";
-		        }
-	        ?>
+            ?>
+            <tr>
+                <td><?php echo $row['nama'];?></td>
+                <td><?php echo " | ";?></td>
+                <td><?php echo $row['email'];?></td>
+                <td><?php echo "<br>";?></td>
+                <td><?php echo $row['isi'];?></td>
+                <td><?php echo "<br>";?></td>
+                <td><a href="edit.php?idx=<?php echo $row['id'];?>">Edit</a>
+                <a href="javascript:del(<?php echo $row['id'];?>)">Hapus</a></td>
+                <td><?php echo "<br><br>";?></td>
+            </tr>
+            <?php
+                };
+            ?>
+            <script language="JavaScript" type="text/javascript">
+                function del(id){
+                if (confirm("yakin akan menghapus data ini?")){
+                window.location.href = 'hapus.php?id=' + id;
+                }}
+            </script>
 	    </div>
 	</div>
 
