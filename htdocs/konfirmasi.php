@@ -48,7 +48,7 @@
 	<section>
 	<div id="bgkonfirm">
 	<div id="stylekonfirm">
-		<h1> Konfirmasi komentar</h1>
+		<h1>Confirm Comment</h1>
 		<?php
 			include 'koneksi.php';
 
@@ -58,7 +58,7 @@
 
 			$query = "INSERT INTO data VALUES('null', '$nama', '$email', '$isi')";
 			mysqli_query($koneksi, $query);
-			echo "<a href='tampil.php'>Lihat Komentar</a>";
+			echo "<a href='tampil.php'>Show Comments</a>";
 		?>
 	</div>
 	</div>
@@ -101,6 +101,5 @@
             </div>
         </div>
     </footer>
-
 </body>
 </html>

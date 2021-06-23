@@ -1,9 +1,9 @@
 <?php
     require_once('koneksi.php');
 
-    $idkomen = @$_GET['idx']; // ambil data ID dari URL
-	$query = mysqli_query($koneksi,"SELECT * FROM data WHERE id='$idkomen'");
-	$row = mysqli_fetch_array($query);
+    $idkomen    = $_GET['idx'];
+	$query      = mysqli_query($koneksi,"SELECT * FROM data WHERE id='$idkomen'");
+	$row        = mysqli_fetch_array($query);
 ?>
 <html>
 <head>
@@ -75,15 +75,17 @@
             require_once('koneksi.php');
 
 	        // ambil variable data 
-	        $nm	= $_POST['e_nama'];
+	        $nm	    = $_POST['e_nama'];
 	        $mail	= $_POST['e_email'];
 	        $komen	= $_POST['e_isi'];
 
-	        $sql = "UPDATE data SET nama='".$nm."', email='".$mail."', isi='".$komen."'";
+	        $sql = "UPDATE data SET nama='".$nm."', email='".$mail."', isi='".$komen."' WHERE id='".$idkomen."'";
 
 	        //Proses query update
 	        if (mysqli_query($koneksi, $sql)) {
 		        echo "1 data berhasil diupdate";
+                echo "<br>";
+                echo "<a href='tampil.php'>Show Comments</a>";
 	        }
             else {
 		        echo "Gagal update data!";
