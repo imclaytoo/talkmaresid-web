@@ -82,7 +82,7 @@
                 <td><?php echo "<br>";?></td>
                 <td><?php echo $row['isi'];?></td>
                 <td><?php echo "<br>";?></td>
-                <td><?php echo "<img src='images/".$row['gambar']."'width='100px' height='100px'/>";?></td>
+                <td><?php echo "<img src='images/".$row['gambar']."'width='250px' height='250px'/>";?></td>
                 <td><?php echo "<br>";?></td>
                 <td><a class="button" href="edit.php?idx=<?php echo $row['id'];?>">Edit</a>
                 <td><a class="button" href="hapus.php?idx=<?php echo $row['id'];?>"onclick="return confirm ('Are you sure want to delete this comment?')">Delete</a>
