@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+    session_start();
+    //if (isset($_SESSION['usr']) && isset($_SESSION['pwd'])){
+    //    header("location:tampil_admin.php");
+    //}
+?>
 <html>
 <head>
     <title>Little Nightmare</title>
@@ -43,7 +48,6 @@
                     <li><a href="#">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="login.html">Log In</a></li>
-                    <li><a href="signup.html">Sign Up</a></li>
                 </ul>
             </div>
         </div>
@@ -58,23 +62,41 @@
             </div>
 
             <div id="formlogin">
-                <form>
+                <form method="post" action="">
                     <label>Username</label><br>
-                    <input type="text"><br>
+                    <input type="text" name="uid"><br>
                     <label for="lname">password</label><br>
-                    <input type="password"><br><br>
+                    <input type="password" name="pw"><br><br>
                     <label>
                         <input type="checkbox"> Remember me
-                      </label>
-                      <a href="forgotpassword.html">forgot password?</a><br>
-                    <button type="submit"> Login</button>
-                  </form> 
-                </div>
+                    </label>
+                        <a href="contact.html">Forgot Password? Contact our support!</a><br>
+                    <button type="submit" name="vlogin"> Login</button>
+                </form>
+                <?php
+                    require_once('koneksi.php');
 
-                <div id="signuplgin">
-                  <p>Don't have an account? <a href="signup.html">Sign up here</a> </p>
-                    
-                  </div>
+                    if (isset($_POST['vlogin'])){
+                        $user = $_POST['uid'];
+                        $pass = $_POST['pw'];
+
+                        $query = mysqli_query($koneksi, "SELECT * FROM admin WHERE username = '$user' and password = '$pass'");
+                        $check = mysqli_num_rows($query);
+
+                        if ($check > 0){
+                            $_SESSION['usr']=$user;
+                            $_SESSION['pwd']=$pass;
+                            header("location:tampil_admin.php");
+                        }else{
+                            echo "Wrong Username and Password!";
+                        }
+                    }
+                ?>
+            </div>
+
+            <div id="signuplgin">
+                <p>Don't have an account?   It's only for admin</p> 
+            </div>
         </div>
     </section>
 

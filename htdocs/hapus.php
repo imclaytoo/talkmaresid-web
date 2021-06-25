@@ -5,7 +5,7 @@
 	$sql = "DELETE FROM data WHERE id='$idkomen'";
 
 	if(mysqli_query($koneksi, $sql)){
-		header('location:tampil.php');
+		header('location:tampil_admin.php');
 		echo "Berhasil menghapus data";
 	}else {
 		echo "Gagal menghapus data";

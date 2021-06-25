@@ -1,4 +1,9 @@
-<!DOCTYPE html>
+<?php
+    require_once('koneksi.php');
+
+    session_start();
+    if (isset($_SESSION['usr']) && isset($_SESSION['pwd'])){
+?>
 <html>
 <head>
 	<title>Halaman Komentar</title>
@@ -42,7 +47,7 @@
                     </div>
                     <li><a href="#">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="login.php">Log In</a></li>
+                    <li><a href="logout.php">Log Out</a></li>
                 </ul>
             </div>
         </div>
@@ -51,9 +56,9 @@
 	<div id="bgtampil">
 	    <div id="tulisanphp">
             <div id="judultampil">
-                <h1>COMMENT PAGE</h1>
+                <h1>ADMIN COMMENT PAGE</h1>
                 <br><br>
-                <h3>If you are an admin, you can delete comment, please login first!
+                <h3>You are an admin, you can delete and edit comment!</h3>
                 <br><br>
                 <br><br>
             </div>
@@ -78,6 +83,7 @@
                 <td><?php echo $row['isi'];?></td>
                 <td><?php echo "<br>";?></td>
                 <td><a class="button" href="edit.php?idx=<?php echo $row['id'];?>">Edit</a>
+                <td><a class="button" href="hapus.php?idx=<?php echo $row['id'];?>"onclick="return confirm ('Are you sure want to delete this comment?')">Delete</a>
                 <td><?php echo "<br><br>";?></td>
             </tr>
             <?php
@@ -125,3 +131,9 @@
     </footer>
 </body>
 </html>
+<?php
+    }else{
+        echo "<script>alert('You must login first!');history.go(-1);</script>";
+        header("location:login.php");
+    }
+?>
