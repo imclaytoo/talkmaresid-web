@@ -56,9 +56,31 @@
 			$email	= $_POST['email'];
 			$isi	= $_POST['isi'];
 
-			$query = "INSERT INTO data VALUES('null', '$nama', '$email', '$isi')";
-			mysqli_query($koneksi, $query);
-			echo "<a href='tampil.php'>Show Comments</a>";
+            $nama_file = $_FILES['gambar']['name'];
+            $ukuran_file = $_FILES['gambar']['size'];
+            $tipe_file = $_FILES['gambar']['type'];
+            $tmp_file = $_FILES['gambar']['tmp_name'];
+
+            $waktu = date('His');
+            $nama_file_baru = $waktu.$nama_file;
+            $path = "images/".$nama_file_baru;
+
+            if ($tipe_file == "image/jpeg" || $tipe_file == "image/png"){
+                if ($ukuran_file <= 2000000){
+                    move_uploaded_file($tmp_file, $path);
+
+                    $sql = "INSERT INTO data (id, nama, email, isi, gambar) VALUES('null', '$nama', '$email', '$isi', '$nama_file_baru')";
+                    if(mysqli_query($koneksi, $sql)){			
+			            echo "<a href='tampil.php'>Show Comments</a>";
+                    }else{
+                        echo "<a>Failed to add comments</a>";
+                    }
+                }else{
+                    echo "Sorry, the file size is way too big.";
+                }
+            }else{
+                echo "Sorry, the file type must be jpg/png.";
+            }
 		?>
 	</div>
 	</div>

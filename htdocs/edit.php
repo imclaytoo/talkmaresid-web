@@ -61,7 +61,7 @@
 
     <div class="backgroundkomentar">
         <h1>comments</h1>
-        <form action="" method="POST">
+        <form action="" method="post" enctype="multipart/form-data">
             <input type="text" name="e_nama" id="inputnama" value="<?php echo $row['nama'];?>"><br><br>
             <input type="text" name="e_email" id="inputnama" value="<?php echo $row['email'];?>"><br><br>
             <textarea name="e_isi"><?php echo $row['isi'];?></textarea><br><br>

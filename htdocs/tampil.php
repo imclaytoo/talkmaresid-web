@@ -77,6 +77,8 @@
                 <td><?php echo "<br>";?></td>
                 <td><?php echo $row['isi'];?></td>
                 <td><?php echo "<br>";?></td>
+                <td><?php echo "<img src='images/".$row['gambar']."'width='100px' height='100px'/>";?></td>
+                <td><?php echo "<br>";?></td>
                 <td><a class="button" href="edit.php?idx=<?php echo $row['id'];?>">Edit</a>
                 <td><?php echo "<br><br>";?></td>
             </tr>
