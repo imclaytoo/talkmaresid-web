@@ -964,6 +964,16 @@ input[type=submit] {
     margin-left: 20px;
 }
 
+#linkliat{
+    margin-left: 40px;
+    margin-top: 30px;
+}
+#linkliat a{
+    color: #fff;
+    font-size: 30px;
+   
+}
+
 .backgroundkomentar textarea {
     width: 60%;
     height: 40%;
@@ -998,6 +1008,10 @@ input[type=reset] {
     font-family: calibri ;
     color: white;
     text-transform: uppercase;
+}
+
+input[type=file]{
+    padding: 15px 32px;
 }
 
 #inputnama {

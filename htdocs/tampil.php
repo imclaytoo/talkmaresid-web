@@ -105,9 +105,9 @@
                 <div class="footer-col">
                     <h4>Content</h4>
                     <ul>
-                        <li><a href="#">Location</a></li>
-                        <li><a href="#">Levels</a></li>
-                        <li><a href="#">Items</a></li>
+                             <li><a href="themaw.html">Location</a></li>
+                            <li><a href="prison.html">Levels</a></li>
+                            <li><a href="statue.html">Items</a></li>
                     </ul>
                 </div>
 
