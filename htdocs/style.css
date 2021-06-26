@@ -519,6 +519,18 @@ ul {
     background-image: linear-gradient(to bottom, #050E1D, #050E1E);
 }
 
+#bgabout p{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 30px;
+    width: 70%;
+    line-height: 70px;
+    margin-top: 40px;
+    text-align: center;
+    color: #fff;
+}
+
 #judulteam{
     color: #fff;
     text-align: center;
